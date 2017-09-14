@@ -1,0 +1,22 @@
+<div>
+	<form (ngSubmit)="findPartner(partnerName)">
+		<h2> Search for your partner </h2>
+		<input type="text" placeholder="add name"[(ngModel)]="partnerName" name="partner name">
+		<button type="submit">Add</button>
+	</form>
+</div>
+<section>
+<div *ngIf="partnerInfo">
+	<form>
+		<h2>Search Results</h2>
+		<ul>
+			<li>
+				<h3>{{partnerInfo.userName}}</h3>
+				<h5>{{partnerInfo.id}}</h5>
+				<img src={{partnerInfo.image}}>		
+			</li>
+		</ul>
+		<!-- <button type="submit">Add</button> -->
+	</form>
+</div>
+</section>

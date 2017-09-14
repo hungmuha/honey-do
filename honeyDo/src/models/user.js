@@ -6,6 +6,9 @@ module.exports = function(sequelize, Sequelize){
 			field: 'userName',
 			allowNull: false
 		},
+		image: {
+			type:Sequelize.STRING
+		},
 		score: {
 			type: Sequelize.INTEGER,
 			filed: 'score',

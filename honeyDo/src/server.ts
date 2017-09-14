@@ -12,7 +12,10 @@ import * as Auth0Strategy   from 'passport-auth0';
 import {session} from 'express-session';
 import * as passport from 'passport';
 
+import { router as honeyRoutes } from './config/index';
+
 const PORT = 3000;
+
 enableProdMode();
 
 const app = express();
@@ -20,9 +23,9 @@ const app = express();
 const strategy = new Auth0Strategy(
   {
     domain: 'hungmuha.auth0.com',
-    clientID: 'znIJFscwW72J_60g2eoLhWKkwP4NozrU',
-    clientSecret: 'Y5iu8s8fs6h2pSFnH4Nf82biu7LHIyu7Ej9vjX7-D5J90XfcxhV9NFGLr_8igKUp',
-    callbackURL:'http://localhost:3000/callback'
+    clientID: 'g0rKxl9LVbeGU6dCV9x610WeAAe7l0S9',
+    clientSecret: 'lJEl6SsqITOZ3zZQE90n25C5qkH0WjbMHzcdSv_r3W1yssfktxbNhqRz3H_jCmI2',
+    callbackURL: 'http://localhost:3000/callback'
   },
   function(accessToken, refreshToken, extraParams, profile, done) {
     // accessToken is the token to call Auth0 API (not needed in the most cases)
@@ -47,6 +50,7 @@ app.use(passport.session());
 app.use(bodyParser.json());
 
 app.use(cookieParser());
+app.use(honeyRoutes);
 
 let template = readFileSync(join(__dirname, '..', 'dist', 'index.html')).toString();
 
@@ -67,6 +71,6 @@ app.get('*', (req, res) => {
   res.render('index', { req });
 });
 
-app.listen(process.env.PORT || 3000, function () {
+app.listen(process.env.PORT || PORT, function () {
   console.log('Express server is running on http://localhost:3000/');
 });

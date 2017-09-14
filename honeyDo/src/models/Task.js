@@ -5,6 +5,10 @@ module.exports = function(sequelize, Sequelize){
 			type: Sequelize.STRING,
 			field: 'task',
 			allowNull: false
+		},
+		point: {
+			type:Sequelize.INTEGER,
+			field:'point'
 		}
 	});
 	return model;
