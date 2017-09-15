@@ -34,5 +34,5 @@ function userUpdate(req,res){
 const userController = <any>{};
 	userController.show = show;
 	userController.showPartner = showPartner;
-	userController.user1Update = userUpdate;
+	userController.userUpdate = userUpdate;
 export {userController};

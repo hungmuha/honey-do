@@ -43,17 +43,20 @@ router.get('/callback',
     var pic = req.user._json.picture;
     User.findOrCreate({
         where: {
-          userName: name,
-          image: pic
+          userName: name
         },
         defaults: {
+          image: pic,          
           score: 0
+
         }
       }).spread((user)=>{
-          // console.log(user.dataValues.id);
+          console.log(user);
           userid = user.dataValues.id;
+          console.log('this is the id of the user now: ' + userid);
           res.redirect(req.session.returnTo || '/Profile/' + userid);  
         });
+
   }
 );
 

@@ -18,9 +18,9 @@ baseUrl ='http://localhost:3000';
   	return this.http.get(`${this.baseUrl}/user2/${name}`)
   }
 
-  createNewGame(nameGame){
-  	console.log("this is the create new game route");
-  	return this.http.post(`${this.baseUrl}/game`, nameGame)
+  createNewGame(game){
+  	console.log("this is the create new game route: " + game);
+  	return this.http.post(`${this.baseUrl}/game`, game)
   }
 
   updateUser1(user1Update){

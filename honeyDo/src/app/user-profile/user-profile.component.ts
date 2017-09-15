@@ -41,30 +41,30 @@ export class UserProfileComponent implements OnInit {
   }
 
   //create the game when user click button
-  createGame(nameGame) {
+  createGame(game) {
     console.log('saving a new game');
-    this.mainService.createNewGame(nameGame)
+    this.mainService.createNewGame(game)
       .subscribe(response => {
         console.log(response.json());
         let newGame = response.json();
 
         //update the user1 with the new game
-        user1Update.id = this.route.params;
-        user1Update.userName = this.currentUser.userName;
-        user1Update.image = this.currentUser.image;
-        user1Update.gameId = newGame.id;
+        this.user1Update.id = this.route.params;
+        this.user1Update.userName = this.currentUser.userName;
+        this.user1Update.image = this.currentUser.image;
+        this.user1Update.gameId = game.id;
  
-          this.mainService.updateUser1(user1Update)
+          this.mainService.updateUser1(this.user1Update)
           .subscribe(response =>{
               console.log(response.json());
           });
           
-        user2Update.id = this.partnerInfo.id;
-        user2Update.userName = this.partnerInfo.userName;
-        user2Update.image = this.partnerInfo.image;
-        user2Update.gameId = newGame.id;
+        this.user2Update.id = this.partnerInfo.id;
+        this.user2Update.userName = this.partnerInfo.userName;
+        this.user2Update.image = this.partnerInfo.image;
+        this.user2Update.gameId = game.id;
 
-          this.mainService.updateUser2(user2Update)
+          this.mainService.updateUser2(this.user2Update)
           .subscribe(response =>{
               console.log(response.json());
           });
