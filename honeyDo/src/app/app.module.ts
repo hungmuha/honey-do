@@ -16,7 +16,6 @@ import { NewGameComponent } from './new-game/new-game.component';
 const appRoutes: Routes = [
 	{ path: '',component:LandingPageComponent},
 	{ path: 'Profile/:id', component:UserProfileComponent},
-  { path: 'newGame', component:NewGameComponent}
 ]
 
 @NgModule({

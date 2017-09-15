@@ -9,6 +9,10 @@ import { MainService } from '../main/main.service';
 })
 export class UserProfileComponent implements OnInit {
 	currentUser;
+  nameGame;
+  newGame;
+  partnerInfo;
+  partnerName;
 
   constructor(
   	private route: ActivatedRoute,
@@ -24,5 +28,23 @@ export class UserProfileComponent implements OnInit {
   		});
   	});
   }
+
+  findPartner(partnerName){
+    this.mainService.searchForPartner(partnerName)
+    .subscribe(response=>{
+      this.partnerInfo = response.json();
+      console.log(this.partnerInfo);
+    });
+  }
+
+  createGame(nameGame) {
+    console.log('saving a new game');
+    this.mainService.createNewGame(nameGame)
+      .subscribe(response => {
+        console.log(response.json());
+        let.newGame = response.json();
+      })
+  }
+
 
 }

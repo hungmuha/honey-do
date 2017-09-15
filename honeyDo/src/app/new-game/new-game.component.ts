@@ -19,7 +19,6 @@ export class NewGameComponent implements OnInit {
   		.subscribe(response => {
   			console.log(response.json());
   			let.newGame = response.json();
-  			window.location.href = "/game/"+ newGame.id;
   		})
   }
 }

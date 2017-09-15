@@ -14,8 +14,14 @@ baseUrl ='http://localhost:3000';
   }
 
   searchForPartner(name){
-  	console.log("this is the parnert name " + name)
+  	console.log("this is the parnert name " + name);
   	return this.http.get(`${this.baseUrl}/user2/${name}`)
+  }
+
+  createNewGame(nameGame){
+  	console.log("this is the create new game route");
+  	return this.http.post(`${this.baseUrl}/game`, nameGame)
+
   }
 	
   

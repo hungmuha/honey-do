@@ -69,5 +69,6 @@ router.get('/failure', function(req, res) {
 
 router.get('/user/:id',userController.show);
 router.get('/user2/:name',userController.showPartner);
+router.post('/game',gameController.create);
 
 export {router};
