@@ -10,8 +10,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 
 import { MainService } from './main/main.service';
-import { SearchPartnerComponent } from './search-partner/search-partner.component';
-import { NewGameComponent } from './new-game/new-game.component';
+
 
 const appRoutes: Routes = [
 	{ path: '',component:LandingPageComponent},
@@ -22,9 +21,7 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     LandingPageComponent,
-    UserProfileComponent,
-    SearchPartnerComponent,
-    NewGameComponent
+    UserProfileComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'honey-do'}),

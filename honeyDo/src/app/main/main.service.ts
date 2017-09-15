@@ -21,9 +21,17 @@ baseUrl ='http://localhost:3000';
   createNewGame(nameGame){
   	console.log("this is the create new game route");
   	return this.http.post(`${this.baseUrl}/game`, nameGame)
+  }
 
+  updateUser1(user1Update){
+    console.log("this is the update User1 route");
+    return this.http.put(`${this.baseUrl}/user/${user1Update.id}`, user1Update)
   }
 	
-  
+  updateUser2(user2Update){
+    console.log("this is the update User2 route");
+    return this.http.put(`${this.baseUrl}/user/${user2Update.id}`, user2Update)
+  }
+
 
 }

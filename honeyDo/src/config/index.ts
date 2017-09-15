@@ -1,11 +1,11 @@
 import * as express from 'express';
 import * as passport from 'passport';
 import { db } from '../models';
+import { userController } from '../controllers/user';
+import { gameController } from '../controllers/game';
+var userid;
 var User = db.models.User;
 var router = express.Router();
-import { userController } from '../controllers/user';
-var userid;
-
 const env = {
   AUTH0_CLIENT_ID: 'g0rKxl9LVbeGU6dCV9x610WeAAe7l0S9',
   AUTH0_DOMAIN: 'hungmuha.auth0.com',
@@ -70,5 +70,6 @@ router.get('/failure', function(req, res) {
 router.get('/user/:id',userController.show);
 router.get('/user2/:name',userController.showPartner);
 router.post('/game',gameController.create);
+router.put('/user/:id',userController.userUpdate);
 
 export {router};
