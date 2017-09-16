@@ -1,5 +1,5 @@
 import * as Sequelize from 'sequelize';
-var sequelize = new Sequelize('postgres://actioncustomer@localhost:5432/honeydo');
+var sequelize = new Sequelize('postgres://hungmuhamath@localhost:5432/honeydo');
 
 var User = sequelize.import('./user');
 var Task = sequelize.import('./task');

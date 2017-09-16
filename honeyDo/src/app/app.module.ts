@@ -10,18 +10,21 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 
 import { MainService } from './main/main.service';
+import { GamePageComponent } from './game-page/game-page.component';
 
 
 const appRoutes: Routes = [
 	{ path: '',component:LandingPageComponent},
 	{ path: 'Profile/:id', component:UserProfileComponent},
+  { path: 'GamePage/:id', component:GamePageComponent}
 ]
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    GamePageComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'honey-do'}),

@@ -1,0 +1,12 @@
+<div *ngIf="oneGame.taskAvailable">
+	<div>
+		<h2>{{oneGame.taskAvailable.task}}</h2>
+		<h3>{{taskAvailable.point}}</h3>
+	</div>
+	<div class="container">
+		<form (ngSubmit)=addNewTask(newTask)>
+			<input type="text" placeholder="add a task" [(ngModel)]="newTask.task">
+		</form>
+	</div>
+
+</div>

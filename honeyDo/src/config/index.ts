@@ -3,6 +3,7 @@ import * as passport from 'passport';
 import { db } from '../models';
 import { userController } from '../controllers/user';
 import { gameController } from '../controllers/game';
+import { taskController } from '../controllers/task';
 var userid;
 var User = db.models.User;
 var router = express.Router();
@@ -72,7 +73,9 @@ router.get('/failure', function(req, res) {
 
 router.get('/user/:id',userController.show);
 router.get('/user2/:name',userController.showPartner);
+router.get('/game/:id',gameController.show);
 router.post('/game',gameController.create);
 router.put('/user/:id',userController.userUpdate);
+router.post('/task',taskController.create);
 
 export {router};

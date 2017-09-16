@@ -9,7 +9,7 @@ import { MainService } from '../main/main.service';
 })
 export class UserProfileComponent implements OnInit {
 	currentUser;
-  nameGame;
+  game = <any>{};
   newGame;
   partnerInfo;
   partnerName;
@@ -46,31 +46,30 @@ export class UserProfileComponent implements OnInit {
     this.mainService.createNewGame(game)
       .subscribe(response => {
         console.log(response.json());
-        let newGame = response.json();
-
-        //update the user1 with the new game
-        this.user1Update.id = this.route.params;
-        this.user1Update.userName = this.currentUser.userName;
-        this.user1Update.image = this.currentUser.image;
-        this.user1Update.gameId = game.id;
- 
-          this.mainService.updateUser1(this.user1Update)
-          .subscribe(response =>{
-              console.log(response.json());
-          });
-          
-        this.user2Update.id = this.partnerInfo.id;
-        this.user2Update.userName = this.partnerInfo.userName;
-        this.user2Update.image = this.partnerInfo.image;
-        this.user2Update.gameId = game.id;
-
-          this.mainService.updateUser2(this.user2Update)
-          .subscribe(response =>{
-              console.log(response.json());
-          });
+        this.newGame = response.json();
       });
-        
+
+    this.user1Update.id = this.currentUser.id;
+    this.user1Update.userName = this.currentUser.userName;
+    this.user1Update.image = this.currentUser.image;
+    this.user1Update.gameId = this.newGame.id;
+
+      this.mainService.updateUser1 (this.user1Update)
+      .subscribe(response =>{
+          console.log(response.json());
+      });
+      
+    this.user2Update.id = this.partnerInfo.id;
+    this.user2Update.userName = this.partnerInfo.userName;
+    this.user2Update.image = this.partnerInfo.image;
+    this.user2Update.gameId = this.newGame.id;
+
+      this.mainService.updateUser2(this.user2Update)
+      .subscribe(response =>{
+          console.log(response.json());
+      });
   }
+
 
 
 }

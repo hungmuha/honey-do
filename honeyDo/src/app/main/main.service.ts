@@ -33,5 +33,13 @@ baseUrl ='http://localhost:3000';
     return this.http.put(`${this.baseUrl}/user/${user2Update.id}`, user2Update)
   }
 
+  getGame(gameId){
+    console.log("this is the route to get game with Id: " + gameId);
+    return this.http.get(`${this.baseUrl}/game/${gameId}`)
+  }
 
+  addTask(newTask){
+    console.log("this is the service to add a newTask: " + newTask);
+    return this.http.get(`${this.baseUrl}/task`, newTask) 
+  }
 }
