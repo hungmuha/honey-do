@@ -71,6 +71,11 @@ export class UserProfileComponent implements OnInit {
     window.location.href = "/GamePage/" + this.newGame.id;
   }
 
+  resume() {
+    console.log('this is the resume game route');
+    window.location.href = "/GamePage/"+ this.currentUser.gameId;
+  }
+
 
 
 }
