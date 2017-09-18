@@ -17,7 +17,7 @@ var Task = db.models.Task;
 
 	function show(req,res) {
 		console.log("this is the get route to get all information of the game");
-		Game.findById(req.params.id,{include: User, Task})
+		Game.findById(req.params.id,{include: [Task,User]})
 		.then(function(game){
 			if(!game) res.send(res,"notfound");
 			else res.json(game);

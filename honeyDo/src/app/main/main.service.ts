@@ -40,6 +40,11 @@ baseUrl ='http://localhost:3000';
 
   addTask(newTask){
     console.log("this is the service to add a newTask: " + newTask);
-    return this.http.get(`${this.baseUrl}/task`, newTask) 
+    return this.http.post(`${this.baseUrl}/task`, newTask) 
+  }
+
+  deleteTask(task){
+    console.log("this is the service to delete a task: " + task);
+    return this.http.delete(`${this.baseUrl}/task/${task.id}`)
   }
 }

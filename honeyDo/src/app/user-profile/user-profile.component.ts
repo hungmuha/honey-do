@@ -68,6 +68,7 @@ export class UserProfileComponent implements OnInit {
       .subscribe(response =>{
           console.log(response.json());
       });
+    window.location.href = "/GamePage/" + this.newGame.id;
   }
 
 

@@ -32,8 +32,11 @@
 <div>
 	<form (ngSubmit)="createGame(game)">
 		<h2> Create New Game </h2>
+		<p>If you don't have an on running game click "Start New Game"</p>
 		<input type="text" placeholder="add name"[(ngModel)]="game.gameName" name="game's name">
-		<button type="submit">Start</button>
+		<button type="submit">Start New Game</button>
 	</form>
+	<form (ngSubmit)="resumeGame">
 
+	</form>
 </div>

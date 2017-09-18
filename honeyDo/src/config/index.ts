@@ -75,7 +75,8 @@ router.get('/user/:id',userController.show);
 router.get('/user2/:name',userController.showPartner);
 router.get('/game/:id',gameController.show);
 router.post('/game',gameController.create);
-router.put('/user/:id',userController.userUpdate);
 router.post('/task',taskController.create);
+router.put('/user/:id',userController.userUpdate);
+router.delete('/task/:id',taskController.destroy);
 
 export {router};
