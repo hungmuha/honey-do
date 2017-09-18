@@ -36,9 +36,10 @@
 		<input type="text" placeholder="add name"[(ngModel)]="game.gameName" name="game's name">
 		<button type="submit">Start New Game</button>
 	</form>
-	<form (ngSubmit)="resumeGame()">
+<!-- 	<form (ngSubmit)="resumeGame()">
 		<h2> Resume Game</h2>
 		<p> If you have an on going game click "Resume Game"</p>
 		<button type="submit">Resume Game</button>
-	</form>
+	</form> -->
+	<button><a routerLink="/GamePage/{{currentUser.gameId}}">Resume Game</a></button>
 </div>
