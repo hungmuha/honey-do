@@ -1,12 +1,12 @@
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <!-- <h1>{{userName}}</h1> -->
 <h1> getting this profile component</h1>
-<div *ngIf="currentUser">
+<div *ngIf="currentUser" class="container">
 	<h1>{{currentUser.userName}}</h1>
 	<img src = {{currentUser.image}} alt="your face">
 <div>
 
-<div>
+<div class="container">
 	<form (ngSubmit)="findPartner(partnerName)">
 		<h2> Search for your partner </h2>
 		<input type="text" placeholder="add name"[(ngModel)]="partnerName" name="partner name">
@@ -14,7 +14,7 @@
 	</form>
 </div>
 <section>
-<div *ngIf="partnerInfo">
+<div *ngIf="partnerInfo" class="container">
 	<form>
 		<h2>Search Results</h2>
 		<ul>
@@ -29,7 +29,7 @@
 </div>
 </section>
 
-<div>
+<div class="container">
 	<form (ngSubmit)="createGame(game)">
 		<h2> Create New Game </h2>
 		<p>If you don't have an on running game click "Start New Game"</p>
