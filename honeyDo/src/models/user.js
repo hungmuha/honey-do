@@ -12,6 +12,7 @@ module.exports = function(sequelize, Sequelize){
 		score: {
 			type: Sequelize.INTEGER,
 			filed: 'score',
+			defaultValue: 0
 		}
 	});
 	return model;

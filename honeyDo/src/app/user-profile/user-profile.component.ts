@@ -8,9 +8,9 @@ import { MainService } from '../main/main.service';
   styleUrls: ['./user-profile.component.css']
 })
 export class UserProfileComponent implements OnInit {
-	currentUser;
+	currentUser= <any>{};
   game = <any>{};
-  newGame;
+  newGame= <any>{};
   partnerInfo;
   partnerName;
   user1Update = <any>{};
@@ -45,10 +45,16 @@ export class UserProfileComponent implements OnInit {
     console.log('saving a new game');
     this.mainService.createNewGame(game)
       .subscribe(response => {
-        console.log(response.json());
+        // console.log(response.json());
         this.newGame = response.json();
+        console.log(this.newGame);
+        this.updateUsers();
+        window.location.href = "/GamePage/" + this.newGame.id;
       });
-
+  }
+  updateUsers(){
+    console.log(this.currentUser);
+    console.log(this.newGame);
     this.user1Update.id = this.currentUser.id;
     this.user1Update.userName = this.currentUser.userName;
     this.user1Update.image = this.currentUser.image;
@@ -68,9 +74,7 @@ export class UserProfileComponent implements OnInit {
       .subscribe(response =>{
           console.log(response.json());
       });
-    window.location.href = "/GamePage/" + this.newGame.id;
-  }
-
+   }
   resume() {
     console.log('this is the resume game route');
     window.location.href = "/GamePage/"+ this.currentUser.gameId;

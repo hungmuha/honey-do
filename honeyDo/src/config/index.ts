@@ -42,20 +42,25 @@ router.get('/callback',
     var name = req.user._json.name;
     console.log("this is the name of the current signing in "+name);
     var pic = req.user._json.picture;
+    
     User.findOrCreate({
         where: {
           userName: name
         },
         defaults: {
           image: pic,          
-          score: 0
-
+          
         }
       }).spread((user)=>{
-          console.log(user);
+          // console.log(user);
+          // console.log(created);
+          // console.log(user.get({ 
+          //   plain:true
+          //  }))
           userid = user.dataValues.id;
           console.log('this is the id of the user now: ' + userid);
-          res.redirect(req.session.returnTo || '/Profile/' + userid);  
+          res.redirect(req.session.returnTo || '/Profile/' + userid);
+          // console.log(created);  
         });
 
   }
