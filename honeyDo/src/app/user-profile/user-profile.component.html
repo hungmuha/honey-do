@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 <!-- <h1>{{userName}}</h1> -->
-<h1> getting this profile component</h1>
+<h1> User Profile</h1>
 <div *ngIf="currentUser" class="container">
 	<h1>{{currentUser.userName}}</h1>
 	<img src = {{currentUser.image}} alt="your face">
@@ -10,7 +10,7 @@
 	<form (ngSubmit)="findPartner(partnerName)">
 		<h2> Search for your partner </h2>
 		<input type="text" placeholder="add name"[(ngModel)]="partnerName" name="partner name">
-		<button type="submit">Add</button>
+		<button type="submit" class="btn btn-primary btn-sm">Add</button>
 	</form>
 </div>
 <section>
@@ -34,12 +34,12 @@
 		<h2> Create New Game </h2>
 		<p>If you don't have an on running game click "Start New Game"</p>
 		<input type="text" placeholder="add name"[(ngModel)]="game.gameName" name="game's name">
-		<button type="submit">Start New Game</button>
+		<button type="submit" class="btn btn-primary btn-sm">Start New Game</button>
 	</form>
 <!-- 	<form (ngSubmit)="resumeGame()">
 		<h2> Resume Game</h2>
 		<p> If you have an on going game click "Resume Game"</p>
 		<button type="submit">Resume Game</button>
 	</form> -->
-	<button><a routerLink="/GamePage/{{currentUser.gameId}}">Resume Game</a></button>
+	<button class="btn btn-primary btn-sm"><a routerLink="/GamePage/{{currentUser.gameId}}">Resume Game</a></button>
 </div>

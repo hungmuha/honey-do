@@ -22,6 +22,7 @@ export class UserProfileComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    //this call to service to get all the information of the user as the page pull up
   	this.route.params.forEach(param => {
   		this.mainService.getUserProfile(param.id)
   		.subscribe(response=>{
@@ -52,6 +53,7 @@ export class UserProfileComponent implements OnInit {
         window.location.href = "/GamePage/" + this.newGame.id;
       });
   }
+  //update the user in the gameId field after the game was created 
   updateUsers(){
     console.log(this.currentUser);
     console.log(this.newGame);
@@ -75,6 +77,7 @@ export class UserProfileComponent implements OnInit {
           console.log(response.json());
       });
    }
+   //user this button to resume the game that you have with your partner
   resume() {
     console.log('this is the resume game route');
     window.location.href = "/GamePage/"+ this.currentUser.gameId;

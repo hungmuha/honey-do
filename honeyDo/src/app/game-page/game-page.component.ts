@@ -30,6 +30,7 @@ export class GamePageComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    //route to call all the information of current on going game
   	this.route.params.forEach(param=>{
   		this.mainService.getGame(param.id)
   		.subscribe(response =>{
@@ -40,9 +41,9 @@ export class GamePageComponent implements OnInit {
   }
 
   addNewTask(newTask){
+    //call to service that create the task for the on going game
     console.log("creating new task");
     newTask.gameId = this.oneGame.id;
-    newTask.point = 1;
     this.mainService.addTask(newTask)
         .subscribe(response =>{
       this.addedTask = response.json();
@@ -61,9 +62,10 @@ export class GamePageComponent implements OnInit {
     });
   }
 
-  addScore(scoredUser,doneTask){
+  addScore(scoredUser,doneTask){ //route to add score and delete task after added score
+
     // scoredUser.userName = user.userName;
-    scoredUser.score = scoredUser.score+1;
+    scoredUser.score = scoredUser.score+ doneTask.point;
     // scoredUser.image = user.image;
     // scoredUser.gameId = user.id;
     this.mainService.updateUser1(scoredUser)

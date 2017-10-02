@@ -21,6 +21,7 @@
 	<div class="container">
 		<form (ngSubmit)=addNewTask(newTask)>
 			<input type="text" placeholder="add a task" [(ngModel)]="newTask.task" name="task">
+			<input type="text" placeholder="add point" [(ngModel)]="newTask.point" name="point">
 			<button type="submit" class="btn btn-secondary">Add</button>
 		</form>
 	</div>
