@@ -4,6 +4,8 @@
 
 	HONEY-DO is the app that help couple make chores fun and exciting. And it doesn't hurt if there are a little competition between each other.
 
++ Instruction: 
+	To start the app locally, type in "npm run start" in the terminal in root file of the project
 
 +trello:
 
