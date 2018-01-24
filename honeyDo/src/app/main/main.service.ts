@@ -5,11 +5,11 @@ import { Http } from '@angular/http';
 @Injectable()
 export class MainService {
 baseUrl ='http://localhost:3000';
+// baseUrl ='https://stormy-castle-85460.herokuapp.com';
 
-  constructor(private http:Http) { }	
 
   getUserProfile(userId){
-  	console.log(userId);
+  	console.log(`${this.baseUrl}/user/${userId}`);
   	return this.http.get(`${this.baseUrl}/user/${userId}`);
   }
 
@@ -47,4 +47,7 @@ baseUrl ='http://localhost:3000';
     console.log("this is the service to delete a task: " + task);
     return this.http.delete(`${this.baseUrl}/task/${task.id}`)
   }
+
+  
+  constructor(private http:Http) { }  
 }

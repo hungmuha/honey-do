@@ -6,5 +6,5 @@
  */
 /* tslint:disable */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.styles = ['.container[_ngcontent-%COMP%]{\n	text-align: center;\n}\n\nbody[_ngcontent-%COMP%] {\n	background: url(http://ak6.picdn.net/shutterstock/videos/15273796/thumb/1.jpg) no-repeat;\n	background-size: cover;\n	color: white;\n}'];
+exports.styles = ['.container[_ngcontent-%COMP%]{\n	text-align: center;\n	padding-top: 25px;\n}\nh1[_ngcontent-%COMP%]{\n	font-size: 50px;\n}\n.tagline[_ngcontent-%COMP%]{\n	font-size: 30px;\n}\n\n.buttonDiv[_ngcontent-%COMP%]{\n	padding-top: 25px;\n}'];
 //# sourceMappingURL=landing-page.component.css.shim.ngstyle.js.map

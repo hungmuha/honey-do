@@ -11,6 +11,7 @@ var landing_page_component_1 = require("./landing-page/landing-page.component");
 var user_profile_component_1 = require("./user-profile/user-profile.component");
 var main_service_1 = require("./main/main.service");
 var game_page_component_1 = require("./game-page/game-page.component");
+var navbar_component_1 = require("./navbar/navbar.component");
 var appRoutes = [
     { path: '', component: landing_page_component_1.LandingPageComponent },
     { path: 'Profile/:id', component: user_profile_component_1.UserProfileComponent },
@@ -27,7 +28,8 @@ AppModule.decorators = [
                     app_component_1.AppComponent,
                     landing_page_component_1.LandingPageComponent,
                     user_profile_component_1.UserProfileComponent,
-                    game_page_component_1.GamePageComponent
+                    game_page_component_1.GamePageComponent,
+                    navbar_component_1.NavbarComponent
                 ],
                 imports: [
                     platform_browser_1.BrowserModule.withServerTransition({ appId: 'honey-do' }),

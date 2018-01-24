@@ -12,3 +12,17 @@ img {
 	text-align: center;
 	max-width: 800px;
 }
+
+input {
+	color:black;
+}
+body {
+	background: url(http://www.psdgraphics.com/file/wavy-orange-background.jpg) no-repeat;
+	background-size: cover;
+	color: white;
+	font-family: 'Pacifico', cursive;
+}
+
+ul {
+	list-style:none;
+}

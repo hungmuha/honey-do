@@ -26,6 +26,7 @@ const strategy = new Auth0Strategy(
     clientID: 'g0rKxl9LVbeGU6dCV9x610WeAAe7l0S9',
     clientSecret: 'lJEl6SsqITOZ3zZQE90n25C5qkH0WjbMHzcdSv_r3W1yssfktxbNhqRz3H_jCmI2',
     callbackURL: 'http://localhost:3000/callback'
+    // callbackURL: 'https://stormy-castle-85460.herokuapp.com/callback'
   },
   function(accessToken, refreshToken, extraParams, profile, done) {
     // accessToken is the token to call Auth0 API (not needed in the most cases)

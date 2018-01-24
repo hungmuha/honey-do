@@ -1,9 +1,14 @@
 .container{
 	text-align: center;
+	padding-top: 25px;
+}
+h1{
+	font-size: 50px;
+}
+.tagline{
+	font-size: 30px;
 }
 
-body {
-	background: url(http://ak6.picdn.net/shutterstock/videos/15273796/thumb/1.jpg) no-repeat;
-	background-size: cover;
-	color: white;
+.buttonDiv{
+	padding-top: 25px;
 }

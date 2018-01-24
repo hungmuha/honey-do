@@ -6,5 +6,5 @@
  */
 /* tslint:disable */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.styles = ['h2[_ngcontent-%COMP%] {\n	font-family: \'Questrial\', sans-serif;\n	font-size: 20px;\n	margin-bottom: 0;\n}'];
+exports.styles = ['h3[_ngcontent-%COMP%]{\n	text-transform: uppercase;\n}'];
 //# sourceMappingURL=user-profile.component.css.shim.ngstyle.js.map

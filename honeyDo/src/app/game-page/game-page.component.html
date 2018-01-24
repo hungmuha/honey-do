@@ -1,37 +1,45 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<div *ngIf="oneGame">
+
+<div class="container">
+	<h2>"WHO SAID LOVE IS NOT ABOUT KEEPING TRACK?"</h2>
+</div>
+<div class="container">
+	<form (ngSubmit)=addNewTask(newTask) class="playerTop">
+		<input type="text" placeholder="add a task" [(ngModel)]="newTask.task" name="task">
+		<input type="text" placeholder="add point" [(ngModel)]="newTask.point" name="point">
+		<button type="submit" class="btn btn-primary">Add</button>
+	</form>
+</div>
+
+<div *ngIf="oneGame" class="container">
 	<ul>
 		<li *ngFor="let task of oneGame.tasks">
-			<h4>{{task.task}}</h4>
-			<h5>{{task.point}}</h5>
-			<form (ngSubmit)="deleteTask(task)">
-		         <input type="submit" value="Delete"/>
-		    </form>
-		    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" (click)="toggleNav()">who did this?</button>
-		    	<div *ngIf="navExpanded" (click)=dismissNav()>
-		    		<ul *ngFor="let user of oneGame.users">
-		    			<li (click)="addScore(user,task)">{{user.userName}}
-		    			</li>
-		    		</ul>
-		    	</div>
+			<div class="list">
+				<p>{{task.task}}    {{task.point}} pts</p>
+			
+				<form (ngSubmit)="deleteTask(task)">
+			         <input type="submit" class="btn btn-secondary" value="Delete"/>
+			    </form>
+			    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" (click)="toggleNav()">who did this?</button>
+			    	<div *ngIf="navExpanded" (click)=dismissNav() >
+			    		<ul *ngFor="let user of oneGame.users">
+			    			<li (click)="addScore(user,task)" class="taskList"> {{user.userName}} </li>
+			    		</ul>
+			    	</div>
+		    </div>
 		</li>
 	</ul>
 </div>
 
-	<div class="container">
-		<form (ngSubmit)=addNewTask(newTask)>
-			<input type="text" placeholder="add a task" [(ngModel)]="newTask.task" name="task">
-			<input type="text" placeholder="add point" [(ngModel)]="newTask.point" name="point">
-			<button type="submit" class="btn btn-secondary">Add</button>
-		</form>
-	</div>
 
-<div *ngIf="oneGame">
-	<ul>
-		<li *ngFor="let user of oneGame.users">
-			<h4>{{user.userName}}</h4>
-			<h5>{{user.score}}</h5>
-		</li>
-	</ul>
+<div *ngIf="oneGame" class="container">
+		<ul>
+			<div class="player">
+				<li *ngFor="let user of oneGame.users">
+					<img src={{user.image}}>
+					<!-- <h5 class="userN"> {{user.userName}}     </h5> -->
+					<h5>  score: {{user.score}}</h5>
+				</li>
+			</div>
+		</ul>
 </div>
 

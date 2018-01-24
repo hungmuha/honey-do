@@ -11,6 +11,7 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 
 import { MainService } from './main/main.service';
 import { GamePageComponent } from './game-page/game-page.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 const appRoutes: Routes = [
@@ -24,7 +25,8 @@ const appRoutes: Routes = [
     AppComponent,
     LandingPageComponent,
     UserProfileComponent,
-    GamePageComponent
+    GamePageComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'honey-do'}),

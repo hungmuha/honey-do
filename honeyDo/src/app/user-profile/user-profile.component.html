@@ -1,10 +1,11 @@
 
 <!-- <h1>{{userName}}</h1> -->
-<h1> User Profile</h1>
+
 <div *ngIf="currentUser" class="container">
-	<h1>{{currentUser.userName}}</h1>
+
+	<h3>{{currentUser.userName}}</h3>
 	<img src = {{currentUser.image}} alt="your face">
-<div>
+</div>
 
 <div class="container">
 	<form (ngSubmit)="findPartner(partnerName)">
@@ -13,21 +14,15 @@
 		<button type="submit" class="btn btn-primary btn-sm">Add</button>
 	</form>
 </div>
-<section>
+
 <div *ngIf="partnerInfo" class="container">
-	<form>
-		<h2>Search Results</h2>
-		<ul>
-			<li>
+		<!-- <h2>Search Results</h2> -->
 				<h3>{{partnerInfo.userName}}</h3>
-				<h5>{{partnerInfo.id}}</h5>
+				<!-- <h5>{{partnerInfo.id}}</h5> -->
 				<img src={{partnerInfo.image}}>	
-			</li>
-		</ul>
 		<!-- <button type="submit">Add</button> -->
-	</form>
 </div>
-</section>
+
 
 <div class="container">
 	<form (ngSubmit)="createGame(game)">

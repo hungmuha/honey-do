@@ -19,8 +19,9 @@ export const RenderType_GamePageComponent:i1.RendererType2 = i1.ɵcrt({encapsula
 function View_GamePageComponent_4(_l:any):i1.ɵViewDefinition {
   return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),4,'ul',([] as any[]),
       (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
-      i1.ɵted((null as any),['\n		    			'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
-      1,'li',([] as any[]),(null as any),[[(null as any),'click']],(_v,en,$event) => {
+      i1.ɵted((null as any),['\n			    			'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+      1,'li',[['class','taskList']],(null as any),[[(null as any),'click']],(_v,en,
+          $event) => {
         var ad:boolean = true;
         var _co:any = _v.component;
         if (('click' === en)) {
@@ -28,8 +29,8 @@ function View_GamePageComponent_4(_l:any):i1.ɵViewDefinition {
           ad = (pd_0 && ad);
         }
         return ad;
-      },(null as any),(null as any))),(_l()(),i1.ɵted((null as any),['','\n		    			'])),
-      (_l()(),i1.ɵted((null as any),['\n		    		']))],(null as any),(_ck,_v) => {
+      },(null as any),(null as any))),(_l()(),i1.ɵted((null as any),[' ',' '])),(_l()(),
+      i1.ɵted((null as any),['\n			    		']))],(null as any),(_ck,_v) => {
     const currVal_0:any = _v.context.$implicit.userName;
     _ck(_v,3,0,currVal_0);
   });
@@ -44,11 +45,11 @@ function View_GamePageComponent_3(_l:any):i1.ɵViewDefinition {
           ad = (pd_0 && ad);
         }
         return ad;
-      },(null as any),(null as any))),(_l()(),i1.ɵted((null as any),['\n		    		'])),
+      },(null as any),(null as any))),(_l()(),i1.ɵted((null as any),['\n			    		'])),
       (_l()(),i1.ɵand(16777216,(null as any),(null as any),1,(null as any),View_GamePageComponent_4)),
       i1.ɵdid(802816,(null as any),0,i2.NgForOf,[i1.ViewContainerRef,i1.TemplateRef,
           i1.IterableDiffers],{ngForOf:[0,'ngForOf']},(null as any)),(_l()(),i1.ɵted((null as any),
-          ['\n		    	']))],(_ck,_v) => {
+          ['\n			    	']))],(_ck,_v) => {
     var _co:any = _v.component;
     const currVal_0:any = _co.oneGame.users;
     _ck(_v,3,0,currVal_0);
@@ -58,12 +59,12 @@ function View_GamePageComponent_2(_l:any):i1.ɵViewDefinition {
   return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),22,'li',([] as any[]),
       (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
       i1.ɵted((null as any),['\n			'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
-      1,'h4',([] as any[]),(null as any),(null as any),(null as any),(null as any),
-      (null as any))),(_l()(),i1.ɵted((null as any),['',''])),(_l()(),i1.ɵted((null as any),
-      ['\n			'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'h5',([] as any[]),
-      (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
-      i1.ɵted((null as any),['',''])),(_l()(),i1.ɵted((null as any),['\n			'])),(_l()(),
-      i1.ɵeld(0,(null as any),(null as any),7,'form',[['novalidate','']],[[2,'ng-untouched',
+      19,'div',[['class','list']],(null as any),(null as any),(null as any),(null as any),
+      (null as any))),(_l()(),i1.ɵted((null as any),['\n				'])),(_l()(),i1.ɵeld(0,
+      (null as any),(null as any),1,'p',([] as any[]),(null as any),(null as any),
+      (null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),['',
+      '    ',' pts'])),(_l()(),i1.ɵted((null as any),['\n			\n				'])),(_l()(),i1.ɵeld(0,
+      (null as any),(null as any),7,'form',[['novalidate','']],[[2,'ng-untouched',
           (null as any)],[2,'ng-touched',(null as any)],[2,'ng-pristine',(null as any)],
           [2,'ng-dirty',(null as any)],[2,'ng-valid',(null as any)],[2,'ng-invalid',
               (null as any)],[2,'ng-pending',(null as any)]],[[(null as any),'ngSubmit'],
@@ -71,11 +72,11 @@ function View_GamePageComponent_2(_l:any):i1.ɵViewDefinition {
         var ad:boolean = true;
         var _co:any = _v.component;
         if (('submit' === en)) {
-          const pd_0:any = ((<any>i1.ɵnov(_v,10).onSubmit($event)) !== false);
+          const pd_0:any = ((<any>i1.ɵnov(_v,9).onSubmit($event)) !== false);
           ad = (pd_0 && ad);
         }
         if (('reset' === en)) {
-          const pd_1:any = ((<any>i1.ɵnov(_v,10).onReset()) !== false);
+          const pd_1:any = ((<any>i1.ɵnov(_v,9).onReset()) !== false);
           ad = (pd_1 && ad);
         }
         if (('ngSubmit' === en)) {
@@ -88,52 +89,52 @@ function View_GamePageComponent_2(_l:any):i1.ɵViewDefinition {
       [8,(null as any)]],(null as any),{ngSubmit:'ngSubmit'}),i1.ɵprd(2048,(null as any),
       i3.ControlContainer,(null as any),[i3.NgForm]),i1.ɵdid(16384,(null as any),0,
       i3.NgControlStatusGroup,[i3.ControlContainer],(null as any),(null as any)),(_l()(),
-      i1.ɵted((null as any),['\n		         '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
-      0,'input',[['type','submit'],['value','Delete']],(null as any),(null as any),
-      (null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),['\n		    '])),
-      (_l()(),i1.ɵted((null as any),['\n		    '])),(_l()(),i1.ɵeld(0,(null as any),
-          (null as any),1,'button',[['class','btn btn-primary dropdown-toggle'],['data-toggle',
-              'dropdown'],['type','button']],(null as any),[[(null as any),'click']],
-          (_v,en,$event) => {
-            var ad:boolean = true;
-            var _co:any = _v.component;
-            if (('click' === en)) {
-              const pd_0:any = ((<any>_co.toggleNav()) !== false);
-              ad = (pd_0 && ad);
-            }
-            return ad;
-          },(null as any),(null as any))),(_l()(),i1.ɵted((null as any),['who did this?'])),
-      (_l()(),i1.ɵted((null as any),['\n		    	'])),(_l()(),i1.ɵand(16777216,(null as any),
+      i1.ɵted((null as any),['\n			         '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+      0,'input',[['class','btn btn-secondary'],['type','submit'],['value','Delete']],
+      (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
+      i1.ɵted((null as any),['\n			    '])),(_l()(),i1.ɵted((null as any),['\n			    '])),
+      (_l()(),i1.ɵeld(0,(null as any),(null as any),1,'button',[['class','btn btn-primary dropdown-toggle'],
+          ['data-toggle','dropdown'],['type','button']],(null as any),[[(null as any),
+          'click']],(_v,en,$event) => {
+        var ad:boolean = true;
+        var _co:any = _v.component;
+        if (('click' === en)) {
+          const pd_0:any = ((<any>_co.toggleNav()) !== false);
+          ad = (pd_0 && ad);
+        }
+        return ad;
+      },(null as any),(null as any))),(_l()(),i1.ɵted((null as any),['who did this?'])),
+      (_l()(),i1.ɵted((null as any),['\n			    	'])),(_l()(),i1.ɵand(16777216,(null as any),
           (null as any),1,(null as any),View_GamePageComponent_3)),i1.ɵdid(16384,(null as any),
           0,i2.NgIf,[i1.ViewContainerRef,i1.TemplateRef],{ngIf:[0,'ngIf']},(null as any)),
-      (_l()(),i1.ɵted((null as any),['\n		']))],(_ck,_v) => {
-    var _co:any = _v.component;
-    const currVal_9:any = _co.navExpanded;
-    _ck(_v,21,0,currVal_9);
-  },(_ck,_v) => {
-    const currVal_0:any = _v.context.$implicit.task;
-    _ck(_v,3,0,currVal_0);
-    const currVal_1:any = _v.context.$implicit.point;
-    _ck(_v,6,0,currVal_1);
-    const currVal_2:any = i1.ɵnov(_v,12).ngClassUntouched;
-    const currVal_3:any = i1.ɵnov(_v,12).ngClassTouched;
-    const currVal_4:any = i1.ɵnov(_v,12).ngClassPristine;
-    const currVal_5:any = i1.ɵnov(_v,12).ngClassDirty;
-    const currVal_6:any = i1.ɵnov(_v,12).ngClassValid;
-    const currVal_7:any = i1.ɵnov(_v,12).ngClassInvalid;
-    const currVal_8:any = i1.ɵnov(_v,12).ngClassPending;
-    _ck(_v,8,0,currVal_2,currVal_3,currVal_4,currVal_5,currVal_6,currVal_7,currVal_8);
-  });
+      (_l()(),i1.ɵted((null as any),['\n		    '])),(_l()(),i1.ɵted((null as any),['\n		']))],
+      (_ck,_v) => {
+        var _co:any = _v.component;
+        const currVal_9:any = _co.navExpanded;
+        _ck(_v,20,0,currVal_9);
+      },(_ck,_v) => {
+        const currVal_0:any = _v.context.$implicit.task;
+        const currVal_1:any = _v.context.$implicit.point;
+        _ck(_v,5,0,currVal_0,currVal_1);
+        const currVal_2:any = i1.ɵnov(_v,11).ngClassUntouched;
+        const currVal_3:any = i1.ɵnov(_v,11).ngClassTouched;
+        const currVal_4:any = i1.ɵnov(_v,11).ngClassPristine;
+        const currVal_5:any = i1.ɵnov(_v,11).ngClassDirty;
+        const currVal_6:any = i1.ɵnov(_v,11).ngClassValid;
+        const currVal_7:any = i1.ɵnov(_v,11).ngClassInvalid;
+        const currVal_8:any = i1.ɵnov(_v,11).ngClassPending;
+        _ck(_v,7,0,currVal_2,currVal_3,currVal_4,currVal_5,currVal_6,currVal_7,currVal_8);
+      });
 }
 function View_GamePageComponent_1(_l:any):i1.ɵViewDefinition {
-  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),7,'div',([] as any[]),
-      (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
-      i1.ɵted((null as any),['\n	'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
-      4,'ul',([] as any[]),(null as any),(null as any),(null as any),(null as any),
-      (null as any))),(_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵand(16777216,
-      (null as any),(null as any),1,(null as any),View_GamePageComponent_2)),i1.ɵdid(802816,
-      (null as any),0,i2.NgForOf,[i1.ViewContainerRef,i1.TemplateRef,i1.IterableDiffers],
-      {ngForOf:[0,'ngForOf']},(null as any)),(_l()(),i1.ɵted((null as any),['\n	'])),
+  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),7,'div',[['class',
+      'container']],(null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i1.ɵted((null as any),['\n	'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+          4,'ul',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵand(16777216,
+          (null as any),(null as any),1,(null as any),View_GamePageComponent_2)),i1.ɵdid(802816,
+          (null as any),0,i2.NgForOf,[i1.ViewContainerRef,i1.TemplateRef,i1.IterableDiffers],
+          {ngForOf:[0,'ngForOf']},(null as any)),(_l()(),i1.ɵted((null as any),['\n	'])),
       (_l()(),i1.ɵted((null as any),['\n']))],(_ck,_v) => {
     var _co:any = _v.component;
     const currVal_0:any = _co.oneGame.tasks;
@@ -143,58 +144,62 @@ function View_GamePageComponent_1(_l:any):i1.ɵViewDefinition {
 function View_GamePageComponent_6(_l:any):i1.ɵViewDefinition {
   return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),7,'li',([] as any[]),
       (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
-      i1.ɵted((null as any),['\n			'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
-      1,'h4',([] as any[]),(null as any),(null as any),(null as any),(null as any),
-      (null as any))),(_l()(),i1.ɵted((null as any),['',''])),(_l()(),i1.ɵted((null as any),
-      ['\n			'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'h5',([] as any[]),
+      i1.ɵted((null as any),['\n					'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+      0,'img',([] as any[]),[[8,'src',4]],(null as any),(null as any),(null as any),
+      (null as any))),(_l()(),i1.ɵted((null as any),['\n					'])),(_l()(),i1.ɵted((null as any),
+      ['\n					'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'h5',([] as any[]),
       (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
-      i1.ɵted((null as any),['',''])),(_l()(),i1.ɵted((null as any),['\n		']))],(null as any),
-      (_ck,_v) => {
-        const currVal_0:any = _v.context.$implicit.userName;
-        _ck(_v,3,0,currVal_0);
+      i1.ɵted((null as any),['  score: ',''])),(_l()(),i1.ɵted((null as any),['\n				']))],
+      (null as any),(_ck,_v) => {
+        const currVal_0:any = i1.ɵinlineInterpolate(1,'',_v.context.$implicit.image,
+            '');
+        _ck(_v,2,0,currVal_0);
         const currVal_1:any = _v.context.$implicit.score;
         _ck(_v,6,0,currVal_1);
       });
 }
 function View_GamePageComponent_5(_l:any):i1.ɵViewDefinition {
-  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),7,'div',([] as any[]),
-      (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
-      i1.ɵted((null as any),['\n	'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
-      4,'ul',([] as any[]),(null as any),(null as any),(null as any),(null as any),
-      (null as any))),(_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵand(16777216,
-      (null as any),(null as any),1,(null as any),View_GamePageComponent_6)),i1.ɵdid(802816,
-      (null as any),0,i2.NgForOf,[i1.ViewContainerRef,i1.TemplateRef,i1.IterableDiffers],
-      {ngForOf:[0,'ngForOf']},(null as any)),(_l()(),i1.ɵted((null as any),['\n	'])),
+  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),10,'div',[['class',
+      'container']],(null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+          7,'ul',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i1.ɵted((null as any),['\n			'])),(_l()(),i1.ɵeld(0,
+          (null as any),(null as any),4,'div',[['class','player']],(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
+          ['\n				'])),(_l()(),i1.ɵand(16777216,(null as any),(null as any),1,(null as any),
+          View_GamePageComponent_6)),i1.ɵdid(802816,(null as any),0,i2.NgForOf,[i1.ViewContainerRef,
+          i1.TemplateRef,i1.IterableDiffers],{ngForOf:[0,'ngForOf']},(null as any)),
+      (_l()(),i1.ɵted((null as any),['\n			'])),(_l()(),i1.ɵted((null as any),['\n		'])),
       (_l()(),i1.ɵted((null as any),['\n']))],(_ck,_v) => {
     var _co:any = _v.component;
     const currVal_0:any = _co.oneGame.users;
-    _ck(_v,5,0,currVal_0);
+    _ck(_v,7,0,currVal_0);
   },(null as any));
 }
 export function View_GamePageComponent_0(_l:any):i1.ɵViewDefinition {
-  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),0,'link',[['href',
-      'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'],['rel',
-      'stylesheet']],(null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵand(16777216,(null as any),
-          (null as any),1,(null as any),View_GamePageComponent_1)),i1.ɵdid(16384,(null as any),
-          0,i2.NgIf,[i1.ViewContainerRef,i1.TemplateRef],{ngIf:[0,'ngIf']},(null as any)),
-      (_l()(),i1.ɵted((null as any),['\n\n	'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
-          25,'div',[['class','container']],(null as any),(null as any),(null as any),
-          (null as any),(null as any))),(_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),
-          i1.ɵeld(0,(null as any),(null as any),22,'form',[['novalidate','']],[[2,
-              'ng-untouched',(null as any)],[2,'ng-touched',(null as any)],[2,'ng-pristine',
-              (null as any)],[2,'ng-dirty',(null as any)],[2,'ng-valid',(null as any)],
-              [2,'ng-invalid',(null as any)],[2,'ng-pending',(null as any)]],[[(null as any),
-              'ngSubmit'],[(null as any),'submit'],[(null as any),'reset']],(_v,en,
-              $event) => {
+  return i1.ɵvid(0,[(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵeld(0,(null as any),
+      (null as any),4,'div',[['class','container']],(null as any),(null as any),(null as any),
+      (null as any),(null as any))),(_l()(),i1.ɵted((null as any),['\n	'])),(_l()(),
+      i1.ɵeld(0,(null as any),(null as any),1,'h2',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
+      ['"WHO SAID LOVE IS NOT ABOUT KEEPING TRACK?"'])),(_l()(),i1.ɵted((null as any),
+      ['\n'])),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵeld(0,(null as any),
+      (null as any),25,'div',[['class','container']],(null as any),(null as any),(null as any),
+      (null as any),(null as any))),(_l()(),i1.ɵted((null as any),['\n	'])),(_l()(),
+      i1.ɵeld(0,(null as any),(null as any),22,'form',[['class','playerTop'],['novalidate',
+          '']],[[2,'ng-untouched',(null as any)],[2,'ng-touched',(null as any)],[2,
+          'ng-pristine',(null as any)],[2,'ng-dirty',(null as any)],[2,'ng-valid',
+          (null as any)],[2,'ng-invalid',(null as any)],[2,'ng-pending',(null as any)]],
+          [[(null as any),'ngSubmit'],[(null as any),'submit'],[(null as any),'reset']],
+          (_v,en,$event) => {
             var ad:boolean = true;
             var _co:i4.GamePageComponent = _v.component;
             if (('submit' === en)) {
-              const pd_0:any = ((<any>i1.ɵnov(_v,9).onSubmit($event)) !== false);
+              const pd_0:any = ((<any>i1.ɵnov(_v,11).onSubmit($event)) !== false);
               ad = (pd_0 && ad);
             }
             if (('reset' === en)) {
-              const pd_1:any = ((<any>i1.ɵnov(_v,9).onReset()) !== false);
+              const pd_1:any = ((<any>i1.ɵnov(_v,11).onReset()) !== false);
               ad = (pd_1 && ad);
             }
             if (('ngSubmit' === en)) {
@@ -203,51 +208,50 @@ export function View_GamePageComponent_0(_l:any):i1.ɵViewDefinition {
             }
             return ad;
           },(null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i3.ɵbf,([] as any[]),
-          (null as any),(null as any)),i1.ɵdid(16384,(null as any),0,i3.NgForm,[[8,
-          (null as any)],[8,(null as any)]],(null as any),{ngSubmit:'ngSubmit'}),i1.ɵprd(2048,
-          (null as any),i3.ControlContainer,(null as any),[i3.NgForm]),i1.ɵdid(16384,
-          (null as any),0,i3.NgControlStatusGroup,[i3.ControlContainer],(null as any),
-          (null as any)),(_l()(),i1.ɵted((null as any),['\n			'])),(_l()(),i1.ɵeld(0,
-          (null as any),(null as any),5,'input',[['name','task'],['placeholder','add a task'],
-              ['type','text']],[[2,'ng-untouched',(null as any)],[2,'ng-touched',(null as any)],
-              [2,'ng-pristine',(null as any)],[2,'ng-dirty',(null as any)],[2,'ng-valid',
-                  (null as any)],[2,'ng-invalid',(null as any)],[2,'ng-pending',(null as any)]],
-          [[(null as any),'ngModelChange'],[(null as any),'input'],[(null as any),
-              'blur'],[(null as any),'compositionstart'],[(null as any),'compositionend']],
-          (_v,en,$event) => {
-            var ad:boolean = true;
-            var _co:i4.GamePageComponent = _v.component;
-            if (('input' === en)) {
-              const pd_0:any = ((<any>i1.ɵnov(_v,14)._handleInput($event.target.value)) !== false);
-              ad = (pd_0 && ad);
-            }
-            if (('blur' === en)) {
-              const pd_1:any = ((<any>i1.ɵnov(_v,14).onTouched()) !== false);
-              ad = (pd_1 && ad);
-            }
-            if (('compositionstart' === en)) {
-              const pd_2:any = ((<any>i1.ɵnov(_v,14)._compositionStart()) !== false);
-              ad = (pd_2 && ad);
-            }
-            if (('compositionend' === en)) {
-              const pd_3:any = ((<any>i1.ɵnov(_v,14)._compositionEnd($event.target.value)) !== false);
-              ad = (pd_3 && ad);
-            }
-            if (('ngModelChange' === en)) {
-              const pd_4:any = ((<any>(_co.newTask.task = $event)) !== false);
-              ad = (pd_4 && ad);
-            }
-            return ad;
-          },(null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i3.DefaultValueAccessor,
-          [i1.Renderer2,i1.ElementRef,[2,i3.COMPOSITION_BUFFER_MODE]],(null as any),
-          (null as any)),i1.ɵprd(1024,(null as any),i3.NG_VALUE_ACCESSOR,(p0_0:any) => {
+      (null as any),(null as any)),i1.ɵdid(16384,(null as any),0,i3.NgForm,[[8,(null as any)],
+      [8,(null as any)]],(null as any),{ngSubmit:'ngSubmit'}),i1.ɵprd(2048,(null as any),
+      i3.ControlContainer,(null as any),[i3.NgForm]),i1.ɵdid(16384,(null as any),0,
+      i3.NgControlStatusGroup,[i3.ControlContainer],(null as any),(null as any)),(_l()(),
+      i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+      5,'input',[['name','task'],['placeholder','add a task'],['type','text']],[[2,
+          'ng-untouched',(null as any)],[2,'ng-touched',(null as any)],[2,'ng-pristine',
+          (null as any)],[2,'ng-dirty',(null as any)],[2,'ng-valid',(null as any)],
+          [2,'ng-invalid',(null as any)],[2,'ng-pending',(null as any)]],[[(null as any),
+          'ngModelChange'],[(null as any),'input'],[(null as any),'blur'],[(null as any),
+          'compositionstart'],[(null as any),'compositionend']],(_v,en,$event) => {
+        var ad:boolean = true;
+        var _co:i4.GamePageComponent = _v.component;
+        if (('input' === en)) {
+          const pd_0:any = ((<any>i1.ɵnov(_v,16)._handleInput($event.target.value)) !== false);
+          ad = (pd_0 && ad);
+        }
+        if (('blur' === en)) {
+          const pd_1:any = ((<any>i1.ɵnov(_v,16).onTouched()) !== false);
+          ad = (pd_1 && ad);
+        }
+        if (('compositionstart' === en)) {
+          const pd_2:any = ((<any>i1.ɵnov(_v,16)._compositionStart()) !== false);
+          ad = (pd_2 && ad);
+        }
+        if (('compositionend' === en)) {
+          const pd_3:any = ((<any>i1.ɵnov(_v,16)._compositionEnd($event.target.value)) !== false);
+          ad = (pd_3 && ad);
+        }
+        if (('ngModelChange' === en)) {
+          const pd_4:any = ((<any>(_co.newTask.task = $event)) !== false);
+          ad = (pd_4 && ad);
+        }
+        return ad;
+      },(null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i3.DefaultValueAccessor,
+      [i1.Renderer2,i1.ElementRef,[2,i3.COMPOSITION_BUFFER_MODE]],(null as any),(null as any)),
+      i1.ɵprd(1024,(null as any),i3.NG_VALUE_ACCESSOR,(p0_0:any) => {
         return [p0_0];
       },[i3.DefaultValueAccessor]),i1.ɵdid(671744,(null as any),0,i3.NgModel,[[2,i3.ControlContainer],
           [8,(null as any)],[8,(null as any)],[2,i3.NG_VALUE_ACCESSOR]],{name:[0,'name'],
           model:[1,'model']},{update:'ngModelChange'}),i1.ɵprd(2048,(null as any),
           i3.NgControl,(null as any),[i3.NgModel]),i1.ɵdid(16384,(null as any),0,i3.NgControlStatus,
           [i3.NgControl],(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
-          ['\n			'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),5,'input',[['name',
+          ['\n		'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),5,'input',[['name',
           'point'],['placeholder','add point'],['type','text']],[[2,'ng-untouched',
           (null as any)],[2,'ng-touched',(null as any)],[2,'ng-pristine',(null as any)],
           [2,'ng-dirty',(null as any)],[2,'ng-valid',(null as any)],[2,'ng-invalid',
@@ -257,19 +261,19 @@ export function View_GamePageComponent_0(_l:any):i1.ɵViewDefinition {
         var ad:boolean = true;
         var _co:i4.GamePageComponent = _v.component;
         if (('input' === en)) {
-          const pd_0:any = ((<any>i1.ɵnov(_v,21)._handleInput($event.target.value)) !== false);
+          const pd_0:any = ((<any>i1.ɵnov(_v,23)._handleInput($event.target.value)) !== false);
           ad = (pd_0 && ad);
         }
         if (('blur' === en)) {
-          const pd_1:any = ((<any>i1.ɵnov(_v,21).onTouched()) !== false);
+          const pd_1:any = ((<any>i1.ɵnov(_v,23).onTouched()) !== false);
           ad = (pd_1 && ad);
         }
         if (('compositionstart' === en)) {
-          const pd_2:any = ((<any>i1.ɵnov(_v,21)._compositionStart()) !== false);
+          const pd_2:any = ((<any>i1.ɵnov(_v,23)._compositionStart()) !== false);
           ad = (pd_2 && ad);
         }
         if (('compositionend' === en)) {
-          const pd_3:any = ((<any>i1.ɵnov(_v,21)._compositionEnd($event.target.value)) !== false);
+          const pd_3:any = ((<any>i1.ɵnov(_v,23)._compositionEnd($event.target.value)) !== false);
           ad = (pd_3 && ad);
         }
         if (('ngModelChange' === en)) {
@@ -286,51 +290,54 @@ export function View_GamePageComponent_0(_l:any):i1.ɵViewDefinition {
           model:[1,'model']},{update:'ngModelChange'}),i1.ɵprd(2048,(null as any),
           i3.NgControl,(null as any),[i3.NgModel]),i1.ɵdid(16384,(null as any),0,i3.NgControlStatus,
           [i3.NgControl],(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
-          ['\n			'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'button',[['class',
-          'btn btn-secondary'],['type','submit']],(null as any),(null as any),(null as any),
+          ['\n		'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'button',[['class',
+          'btn btn-primary'],['type','submit']],(null as any),(null as any),(null as any),
           (null as any),(null as any))),(_l()(),i1.ɵted((null as any),['Add'])),(_l()(),
-          i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵted((null as any),['\n	'])),
-      (_l()(),i1.ɵted((null as any),['\n\n'])),(_l()(),i1.ɵand(16777216,(null as any),
+          i1.ɵted((null as any),['\n	'])),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),
+          i1.ɵted((null as any),['\n\n'])),(_l()(),i1.ɵand(16777216,(null as any),
+          (null as any),1,(null as any),View_GamePageComponent_1)),i1.ɵdid(16384,(null as any),
+          0,i2.NgIf,[i1.ViewContainerRef,i1.TemplateRef],{ngIf:[0,'ngIf']},(null as any)),
+      (_l()(),i1.ɵted((null as any),['\n\n\n'])),(_l()(),i1.ɵand(16777216,(null as any),
           (null as any),1,(null as any),View_GamePageComponent_5)),i1.ɵdid(16384,(null as any),
           0,i2.NgIf,[i1.ViewContainerRef,i1.TemplateRef],{ngIf:[0,'ngIf']},(null as any)),
       (_l()(),i1.ɵted((null as any),['\n\n']))],(_ck,_v) => {
     var _co:i4.GamePageComponent = _v.component;
-    const currVal_0:any = _co.oneGame;
-    _ck(_v,3,0,currVal_0);
-    const currVal_15:any = 'task';
-    const currVal_16:any = _co.newTask.task;
-    _ck(_v,16,0,currVal_15,currVal_16);
-    const currVal_24:any = 'point';
-    const currVal_25:any = _co.newTask.point;
-    _ck(_v,23,0,currVal_24,currVal_25);
+    const currVal_14:any = 'task';
+    const currVal_15:any = _co.newTask.task;
+    _ck(_v,18,0,currVal_14,currVal_15);
+    const currVal_23:any = 'point';
+    const currVal_24:any = _co.newTask.point;
+    _ck(_v,25,0,currVal_23,currVal_24);
+    const currVal_25:any = _co.oneGame;
+    _ck(_v,35,0,currVal_25);
     const currVal_26:any = _co.oneGame;
-    _ck(_v,33,0,currVal_26);
+    _ck(_v,38,0,currVal_26);
   },(_ck,_v) => {
-    const currVal_1:any = i1.ɵnov(_v,11).ngClassUntouched;
-    const currVal_2:any = i1.ɵnov(_v,11).ngClassTouched;
-    const currVal_3:any = i1.ɵnov(_v,11).ngClassPristine;
-    const currVal_4:any = i1.ɵnov(_v,11).ngClassDirty;
-    const currVal_5:any = i1.ɵnov(_v,11).ngClassValid;
-    const currVal_6:any = i1.ɵnov(_v,11).ngClassInvalid;
-    const currVal_7:any = i1.ɵnov(_v,11).ngClassPending;
-    _ck(_v,7,0,currVal_1,currVal_2,currVal_3,currVal_4,currVal_5,currVal_6,currVal_7);
-    const currVal_8:any = i1.ɵnov(_v,18).ngClassUntouched;
-    const currVal_9:any = i1.ɵnov(_v,18).ngClassTouched;
-    const currVal_10:any = i1.ɵnov(_v,18).ngClassPristine;
-    const currVal_11:any = i1.ɵnov(_v,18).ngClassDirty;
-    const currVal_12:any = i1.ɵnov(_v,18).ngClassValid;
-    const currVal_13:any = i1.ɵnov(_v,18).ngClassInvalid;
-    const currVal_14:any = i1.ɵnov(_v,18).ngClassPending;
-    _ck(_v,13,0,currVal_8,currVal_9,currVal_10,currVal_11,currVal_12,currVal_13,currVal_14);
-    const currVal_17:any = i1.ɵnov(_v,25).ngClassUntouched;
-    const currVal_18:any = i1.ɵnov(_v,25).ngClassTouched;
-    const currVal_19:any = i1.ɵnov(_v,25).ngClassPristine;
-    const currVal_20:any = i1.ɵnov(_v,25).ngClassDirty;
-    const currVal_21:any = i1.ɵnov(_v,25).ngClassValid;
-    const currVal_22:any = i1.ɵnov(_v,25).ngClassInvalid;
-    const currVal_23:any = i1.ɵnov(_v,25).ngClassPending;
-    _ck(_v,20,0,currVal_17,currVal_18,currVal_19,currVal_20,currVal_21,currVal_22,
-        currVal_23);
+    const currVal_0:any = i1.ɵnov(_v,13).ngClassUntouched;
+    const currVal_1:any = i1.ɵnov(_v,13).ngClassTouched;
+    const currVal_2:any = i1.ɵnov(_v,13).ngClassPristine;
+    const currVal_3:any = i1.ɵnov(_v,13).ngClassDirty;
+    const currVal_4:any = i1.ɵnov(_v,13).ngClassValid;
+    const currVal_5:any = i1.ɵnov(_v,13).ngClassInvalid;
+    const currVal_6:any = i1.ɵnov(_v,13).ngClassPending;
+    _ck(_v,9,0,currVal_0,currVal_1,currVal_2,currVal_3,currVal_4,currVal_5,currVal_6);
+    const currVal_7:any = i1.ɵnov(_v,20).ngClassUntouched;
+    const currVal_8:any = i1.ɵnov(_v,20).ngClassTouched;
+    const currVal_9:any = i1.ɵnov(_v,20).ngClassPristine;
+    const currVal_10:any = i1.ɵnov(_v,20).ngClassDirty;
+    const currVal_11:any = i1.ɵnov(_v,20).ngClassValid;
+    const currVal_12:any = i1.ɵnov(_v,20).ngClassInvalid;
+    const currVal_13:any = i1.ɵnov(_v,20).ngClassPending;
+    _ck(_v,15,0,currVal_7,currVal_8,currVal_9,currVal_10,currVal_11,currVal_12,currVal_13);
+    const currVal_16:any = i1.ɵnov(_v,27).ngClassUntouched;
+    const currVal_17:any = i1.ɵnov(_v,27).ngClassTouched;
+    const currVal_18:any = i1.ɵnov(_v,27).ngClassPristine;
+    const currVal_19:any = i1.ɵnov(_v,27).ngClassDirty;
+    const currVal_20:any = i1.ɵnov(_v,27).ngClassValid;
+    const currVal_21:any = i1.ɵnov(_v,27).ngClassInvalid;
+    const currVal_22:any = i1.ɵnov(_v,27).ngClassPending;
+    _ck(_v,22,0,currVal_16,currVal_17,currVal_18,currVal_19,currVal_20,currVal_21,
+        currVal_22);
   });
 }
 export function View_GamePageComponent_Host_0(_l:any):i1.ɵViewDefinition {
@@ -343,4 +350,4 @@ export function View_GamePageComponent_Host_0(_l:any):i1.ɵViewDefinition {
 }
 export const GamePageComponentNgFactory:i1.ComponentFactory<i4.GamePageComponent> = i1.ɵccf('app-game-page',
     i4.GamePageComponent,View_GamePageComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL2dhbWUtcGFnZS9nYW1lLXBhZ2UuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL2dhbWUtcGFnZS9nYW1lLXBhZ2UuY29tcG9uZW50LnRzIiwibmc6Ly8vVXNlcnMvaHVuZ211aGFtYXRoL0hvbWVXb3JrL3Byb2plY3QtNC9ob25leURvL3NyYy9hcHAvZ2FtZS1wYWdlL2dhbWUtcGFnZS5jb21wb25lbnQuaHRtbCIsIm5nOi8vL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL2dhbWUtcGFnZS9nYW1lLXBhZ2UuY29tcG9uZW50LnRzLkdhbWVQYWdlQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJodHRwczovL21heGNkbi5ib290c3RyYXBjZG4uY29tL2Jvb3RzdHJhcC8zLjMuNy9jc3MvYm9vdHN0cmFwLm1pbi5jc3NcIj5cbjxkaXYgKm5nSWY9XCJvbmVHYW1lXCI+XG5cdDx1bD5cblx0XHQ8bGkgKm5nRm9yPVwibGV0IHRhc2sgb2Ygb25lR2FtZS50YXNrc1wiPlxuXHRcdFx0PGg0Pnt7dGFzay50YXNrfX08L2g0PlxuXHRcdFx0PGg1Pnt7dGFzay5wb2ludH19PC9oNT5cblx0XHRcdDxmb3JtIChuZ1N1Ym1pdCk9XCJkZWxldGVUYXNrKHRhc2spXCI+XG5cdFx0ICAgICAgICAgPGlucHV0IHR5cGU9XCJzdWJtaXRcIiB2YWx1ZT1cIkRlbGV0ZVwiLz5cblx0XHQgICAgPC9mb3JtPlxuXHRcdCAgICA8YnV0dG9uIGNsYXNzPVwiYnRuIGJ0bi1wcmltYXJ5IGRyb3Bkb3duLXRvZ2dsZVwiIHR5cGU9XCJidXR0b25cIiBkYXRhLXRvZ2dsZT1cImRyb3Bkb3duXCIgKGNsaWNrKT1cInRvZ2dsZU5hdigpXCI+d2hvIGRpZCB0aGlzPzwvYnV0dG9uPlxuXHRcdCAgICBcdDxkaXYgKm5nSWY9XCJuYXZFeHBhbmRlZFwiIChjbGljayk9ZGlzbWlzc05hdigpPlxuXHRcdCAgICBcdFx0PHVsICpuZ0Zvcj1cImxldCB1c2VyIG9mIG9uZUdhbWUudXNlcnNcIj5cblx0XHQgICAgXHRcdFx0PGxpIChjbGljayk9XCJhZGRTY29yZSh1c2VyLHRhc2spXCI+e3t1c2VyLnVzZXJOYW1lfX1cblx0XHQgICAgXHRcdFx0PC9saT5cblx0XHQgICAgXHRcdDwvdWw+XG5cdFx0ICAgIFx0PC9kaXY+XG5cdFx0PC9saT5cblx0PC91bD5cbjwvZGl2PlxuXG5cdDxkaXYgY2xhc3M9XCJjb250YWluZXJcIj5cblx0XHQ8Zm9ybSAobmdTdWJtaXQpPWFkZE5ld1Rhc2sobmV3VGFzayk+XG5cdFx0XHQ8aW5wdXQgdHlwZT1cInRleHRcIiBwbGFjZWhvbGRlcj1cImFkZCBhIHRhc2tcIiBbKG5nTW9kZWwpXT1cIm5ld1Rhc2sudGFza1wiIG5hbWU9XCJ0YXNrXCI+XG5cdFx0XHQ8aW5wdXQgdHlwZT1cInRleHRcIiBwbGFjZWhvbGRlcj1cImFkZCBwb2ludFwiIFsobmdNb2RlbCldPVwibmV3VGFzay5wb2ludFwiIG5hbWU9XCJwb2ludFwiPlxuXHRcdFx0PGJ1dHRvbiB0eXBlPVwic3VibWl0XCIgY2xhc3M9XCJidG4gYnRuLXNlY29uZGFyeVwiPkFkZDwvYnV0dG9uPlxuXHRcdDwvZm9ybT5cblx0PC9kaXY+XG5cbjxkaXYgKm5nSWY9XCJvbmVHYW1lXCI+XG5cdDx1bD5cblx0XHQ8bGkgKm5nRm9yPVwibGV0IHVzZXIgb2Ygb25lR2FtZS51c2Vyc1wiPlxuXHRcdFx0PGg0Pnt7dXNlci51c2VyTmFtZX19PC9oND5cblx0XHRcdDxoNT57e3VzZXIuc2NvcmV9fTwvaDU+XG5cdFx0PC9saT5cblx0PC91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
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL2dhbWUtcGFnZS9nYW1lLXBhZ2UuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL2dhbWUtcGFnZS9nYW1lLXBhZ2UuY29tcG9uZW50LnRzIiwibmc6Ly8vVXNlcnMvaHVuZ211aGFtYXRoL0hvbWVXb3JrL3Byb2plY3QtNC9ob25leURvL3NyYy9hcHAvZ2FtZS1wYWdlL2dhbWUtcGFnZS5jb21wb25lbnQuaHRtbCIsIm5nOi8vL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL2dhbWUtcGFnZS9nYW1lLXBhZ2UuY29tcG9uZW50LnRzLkdhbWVQYWdlQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiXG48ZGl2IGNsYXNzPVwiY29udGFpbmVyXCI+XG5cdDxoMj5cIldITyBTQUlEIExPVkUgSVMgTk9UIEFCT1VUIEtFRVBJTkcgVFJBQ0s/XCI8L2gyPlxuPC9kaXY+XG48ZGl2IGNsYXNzPVwiY29udGFpbmVyXCI+XG5cdDxmb3JtIChuZ1N1Ym1pdCk9YWRkTmV3VGFzayhuZXdUYXNrKSBjbGFzcz1cInBsYXllclRvcFwiPlxuXHRcdDxpbnB1dCB0eXBlPVwidGV4dFwiIHBsYWNlaG9sZGVyPVwiYWRkIGEgdGFza1wiIFsobmdNb2RlbCldPVwibmV3VGFzay50YXNrXCIgbmFtZT1cInRhc2tcIj5cblx0XHQ8aW5wdXQgdHlwZT1cInRleHRcIiBwbGFjZWhvbGRlcj1cImFkZCBwb2ludFwiIFsobmdNb2RlbCldPVwibmV3VGFzay5wb2ludFwiIG5hbWU9XCJwb2ludFwiPlxuXHRcdDxidXR0b24gdHlwZT1cInN1Ym1pdFwiIGNsYXNzPVwiYnRuIGJ0bi1wcmltYXJ5XCI+QWRkPC9idXR0b24+XG5cdDwvZm9ybT5cbjwvZGl2PlxuXG48ZGl2ICpuZ0lmPVwib25lR2FtZVwiIGNsYXNzPVwiY29udGFpbmVyXCI+XG5cdDx1bD5cblx0XHQ8bGkgKm5nRm9yPVwibGV0IHRhc2sgb2Ygb25lR2FtZS50YXNrc1wiPlxuXHRcdFx0PGRpdiBjbGFzcz1cImxpc3RcIj5cblx0XHRcdFx0PHA+e3t0YXNrLnRhc2t9fSAgICB7e3Rhc2sucG9pbnR9fSBwdHM8L3A+XG5cdFx0XHRcblx0XHRcdFx0PGZvcm0gKG5nU3VibWl0KT1cImRlbGV0ZVRhc2sodGFzaylcIj5cblx0XHRcdCAgICAgICAgIDxpbnB1dCB0eXBlPVwic3VibWl0XCIgY2xhc3M9XCJidG4gYnRuLXNlY29uZGFyeVwiIHZhbHVlPVwiRGVsZXRlXCIvPlxuXHRcdFx0ICAgIDwvZm9ybT5cblx0XHRcdCAgICA8YnV0dG9uIGNsYXNzPVwiYnRuIGJ0bi1wcmltYXJ5IGRyb3Bkb3duLXRvZ2dsZVwiIHR5cGU9XCJidXR0b25cIiBkYXRhLXRvZ2dsZT1cImRyb3Bkb3duXCIgKGNsaWNrKT1cInRvZ2dsZU5hdigpXCI+d2hvIGRpZCB0aGlzPzwvYnV0dG9uPlxuXHRcdFx0ICAgIFx0PGRpdiAqbmdJZj1cIm5hdkV4cGFuZGVkXCIgKGNsaWNrKT1kaXNtaXNzTmF2KCkgPlxuXHRcdFx0ICAgIFx0XHQ8dWwgKm5nRm9yPVwibGV0IHVzZXIgb2Ygb25lR2FtZS51c2Vyc1wiPlxuXHRcdFx0ICAgIFx0XHRcdDxsaSAoY2xpY2spPVwiYWRkU2NvcmUodXNlcix0YXNrKVwiIGNsYXNzPVwidGFza0xpc3RcIj4ge3t1c2VyLnVzZXJOYW1lfX0gPC9saT5cblx0XHRcdCAgICBcdFx0PC91bD5cblx0XHRcdCAgICBcdDwvZGl2PlxuXHRcdCAgICA8L2Rpdj5cblx0XHQ8L2xpPlxuXHQ8L3VsPlxuPC9kaXY+XG5cblxuPGRpdiAqbmdJZj1cIm9uZUdhbWVcIiBjbGFzcz1cImNvbnRhaW5lclwiPlxuXHRcdDx1bD5cblx0XHRcdDxkaXYgY2xhc3M9XCJwbGF5ZXJcIj5cblx0XHRcdFx0PGxpICpuZ0Zvcj1cImxldCB1c2VyIG9mIG9uZUdhbWUudXNlcnNcIj5cblx0XHRcdFx0XHQ8aW1nIHNyYz17e3VzZXIuaW1hZ2V9fT5cblx0XHRcdFx0XHQ8IS0tIDxoNSBjbGFzcz1cInVzZXJOXCI+IHt7dXNlci51c2VyTmFtZX19ICAgICA8L2g1PiAtLT5cblx0XHRcdFx0XHQ8aDU+ICBzY29yZToge3t1c2VyLnNjb3JlfX08L2g1PlxuXHRcdFx0XHQ8L2xpPlxuXHRcdFx0PC9kaXY+XG5cdFx0PC91bD5cbjwvZGl2PlxuXG4iLCI8YXBwLWdhbWUtcGFnZT48L2FwcC1nYW1lLXBhZ2U+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7OztvQkN1QlM7TUFBQSx3RUFBdUM7YUFBQSxrQ0FDdEM7TUFBQTtnQkFBQTtRQUFBO1FBQUE7UUFBSTtVQUFBO1VBQUE7UUFBQTtRQUFKO01BQUEsZ0NBQW1ELDBDQUF3QjthQUFBO0lBQXhCO0lBQUE7Ozs7b0JBRnJEO01BQUE7UUFBQTtRQUFBO1FBQXlCO1VBQUE7VUFBQTtRQUFBO1FBQXpCO01BQUEsZ0NBQStDO01BQzlDO2FBQUE7NEJBQUEseUNBRUs7VUFBQTs7SUFGRDtJQUFKLFdBQUksU0FBSjs7OztvQkFUUDtNQUFBLHdFQUF1QzthQUFBLDJCQUN0QztNQUFBO01BQUEsZ0JBQWtCLDJDQUNqQjtNQUFBO01BQUEsNENBQUc7TUFBQSxpQkFBdUMsZ0RBRTFDO01BQUE7VUFBQTtVQUFBO2NBQUE7VUFBQTtRQUFBO1FBQUE7UUFBQTtVQUFBO1VBQUE7UUFBQTtRQUFBO1VBQUE7VUFBQTtRQUFBO1FBQU07VUFBQTtVQUFBO1FBQUE7UUFBTjtNQUFBLHVDQUFBO01BQUEsb0NBQUE7TUFBQSwrREFBQTswQkFBQSxrQ0FBQTs4QkFBQSxtREFBb0M7YUFBQSxvQ0FDNUI7TUFBQTtNQUFBLHdFQUErRDthQUFBLCtCQUM3RDtNQUNQO1VBQUE7VUFBQTtRQUFBO1FBQUE7UUFB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

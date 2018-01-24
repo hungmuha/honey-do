@@ -11,6 +11,7 @@ const env = {
   AUTH0_CLIENT_ID: 'g0rKxl9LVbeGU6dCV9x610WeAAe7l0S9',
   AUTH0_DOMAIN: 'hungmuha.auth0.com',
   AUTH0_CALLBACK_URL: 'http://localhost:3000/callback'
+  // AUTH0_CALLBACK_URL: 'https://stormy-castle-85460.herokuapp.com/callback'
 };
 
 

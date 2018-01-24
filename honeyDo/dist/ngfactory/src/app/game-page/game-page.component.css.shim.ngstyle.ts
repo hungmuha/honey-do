@@ -6,5 +6,5 @@
  /* tslint:disable */
 
 
-export const styles:any[] = [''];
+export const styles:any[] = ['li[_ngcontent-%COMP%] {\n	display: inline-block;\n	padding-left: 10px\n}\n.container[_ngcontent-%COMP%]{\n	padding-bottom: 10px;\n}\np[_ngcontent-%COMP%] {\n	font-size: 27px;\n}\nimg[_ngcontent-%COMP%] {\n	max-width: 100px;\n}\n\nh2[_ngcontent-%COMP%] {\n	color: white;\n}\n\nh5[_ngcontent-%COMP%]{\n	color: white;\n	font-size: 30px;\n}\n.list[_ngcontent-%COMP%]{\n	display: inline-block;\n}\n\nform[_ngcontent-%COMP%], button[_ngcontent-%COMP%], p[_ngcontent-%COMP%] {\n	display: inline;\n}\n\n.gameTop[_ngcontent-%COMP%]{\n	padding-top: 50px;\n}\n\n.player[_ngcontent-%COMP%]{\n	display: inline-block; \n	padding-left: 10px;\n}\n\n.taskList[_ngcontent-%COMP%]{\n	border:1px solid #bbb;\n}\n.userN[_ngcontent-%COMP%]{\n	text-transform: uppercase;\n}'];
 //# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL2dhbWUtcGFnZS9nYW1lLXBhZ2UuY29tcG9uZW50LmNzcy5zaGltLm5nc3R5bGUudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9Vc2Vycy9odW5nbXVoYW1hdGgvSG9tZVdvcmsvcHJvamVjdC00L2hvbmV5RG8vc3JjL2FwcC9nYW1lLXBhZ2UvZ2FtZS1wYWdlLmNvbXBvbmVudC5jc3MiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7OyJ9

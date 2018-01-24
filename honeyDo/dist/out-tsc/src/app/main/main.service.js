@@ -8,8 +8,9 @@ var MainService = (function () {
         this.http = http;
         this.baseUrl = 'http://localhost:3000';
     }
+    // baseUrl ='https://stormy-castle-85460.herokuapp.com';
     MainService.prototype.getUserProfile = function (userId) {
-        console.log(userId);
+        console.log(this.baseUrl + "/user/" + userId);
         return this.http.get(this.baseUrl + "/user/" + userId);
     };
     MainService.prototype.searchForPartner = function (name) {

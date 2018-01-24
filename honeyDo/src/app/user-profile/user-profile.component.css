@@ -1,5 +1,9 @@
-h2 {
+/*h2 {
 	font-family: 'Questrial', sans-serif;
 	font-size: 20px;
 	margin-bottom: 0;
+}*/
+
+h3{
+	text-transform: uppercase;
 }

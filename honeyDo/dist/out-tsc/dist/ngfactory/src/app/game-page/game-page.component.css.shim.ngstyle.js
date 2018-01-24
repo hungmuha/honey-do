@@ -6,5 +6,5 @@
  */
 /* tslint:disable */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.styles = [''];
+exports.styles = ['li[_ngcontent-%COMP%] {\n	display: inline-block;\n	padding-left: 10px\n}\n.container[_ngcontent-%COMP%]{\n	padding-bottom: 10px;\n}\np[_ngcontent-%COMP%] {\n	font-size: 27px;\n}\nimg[_ngcontent-%COMP%] {\n	max-width: 100px;\n}\n\nh2[_ngcontent-%COMP%] {\n	color: white;\n}\n\nh5[_ngcontent-%COMP%]{\n	color: white;\n	font-size: 30px;\n}\n.list[_ngcontent-%COMP%]{\n	display: inline-block;\n}\n\nform[_ngcontent-%COMP%], button[_ngcontent-%COMP%], p[_ngcontent-%COMP%] {\n	display: inline;\n}\n\n.gameTop[_ngcontent-%COMP%]{\n	padding-top: 50px;\n}\n\n.player[_ngcontent-%COMP%]{\n	display: inline-block; \n	padding-left: 10px;\n}\n\n.taskList[_ngcontent-%COMP%]{\n	border:1px solid #bbb;\n}\n.userN[_ngcontent-%COMP%]{\n	text-transform: uppercase;\n}'];
 //# sourceMappingURL=game-page.component.css.shim.ngstyle.js.map
