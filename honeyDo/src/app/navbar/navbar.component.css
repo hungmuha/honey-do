@@ -1,0 +1,24 @@
+a	{
+	color: white;
+	font-size: 14px;
+	display: inline;
+}
+
+
+.nav-bar {
+	width: 100%;
+	height:30px;
+	background-color: #F9C939;
+	display: flex;
+  	justify-content: center;
+  	margin-bottom: 20px;
+
+}
+
+.nav-item {
+	text-transform: capitalize;
+	color: #75757E;
+	align-self: center;
+	margin: 20px 10px;
+	
+}

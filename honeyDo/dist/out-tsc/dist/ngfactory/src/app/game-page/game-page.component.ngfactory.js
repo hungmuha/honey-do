@@ -53,7 +53,7 @@ function View_GamePageComponent_3(_l) {
 function View_GamePageComponent_2(_l) {
     return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 22, 'li', [], null, null, null, null, null)), (_l()(),
             i1.ɵted(null, ['\n			'])), (_l()(), i1.ɵeld(0, null, null, 19, 'div', [['class', 'list']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n				'])), (_l()(), i1.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['',
-            '    ', ' pts'])), (_l()(), i1.ɵted(null, ['\n			\n				'])), (_l()(), i1.ɵeld(0, null, null, 7, 'form', [['novalidate', '']], [[2, 'ng-untouched',
+            ' :    ', ' pts'])), (_l()(), i1.ɵted(null, ['\n			\n				'])), (_l()(), i1.ɵeld(0, null, null, 7, 'form', [['novalidate', '']], [[2, 'ng-untouched',
                 null], [2, 'ng-touched', null], [2, 'ng-pristine', null],
             [2, 'ng-dirty', null], [2, 'ng-valid', null], [2, 'ng-invalid',
                 null], [2, 'ng-pending', null]], [[null, 'ngSubmit'],
@@ -120,7 +120,7 @@ function View_GamePageComponent_1(_l) {
 function View_GamePageComponent_6(_l) {
     return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 7, 'li', [], null, null, null, null, null)), (_l()(),
             i1.ɵted(null, ['\n					'])), (_l()(), i1.ɵeld(0, null, null, 0, 'img', [], [[8, 'src', 4]], null, null, null, null)), (_l()(), i1.ɵted(null, ['\n					'])), (_l()(), i1.ɵted(null, ['\n					'])), (_l()(), i1.ɵeld(0, null, null, 1, 'h5', [], null, null, null, null, null)), (_l()(),
-            i1.ɵted(null, ['  score: ', ''])), (_l()(), i1.ɵted(null, ['\n				']))], null, function (_ck, _v) {
+            i1.ɵted(null, ['', ' Pts'])), (_l()(), i1.ɵted(null, ['\n				']))], null, function (_ck, _v) {
         var currVal_0 = i1.ɵinlineInterpolate(1, '', _v.context.$implicit.image, '');
         _ck(_v, 2, 0, currVal_0);
         var currVal_1 = _v.context.$implicit.score;
@@ -141,11 +141,13 @@ function View_GamePageComponent_5(_l) {
 }
 function View_GamePageComponent_0(_l) {
     return i1.ɵvid(0, [(_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵeld(0, null, null, 4, 'div', [['class', 'container']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n	'])), (_l()(),
-            i1.ɵeld(0, null, null, 1, 'h2', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['"WHO SAID LOVE IS NOT ABOUT KEEPING TRACK?"'])), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵeld(0, null, null, 25, 'div', [['class', 'container']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n	'])), (_l()(),
+            i1.ɵeld(0, null, null, 1, 'h2', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['"HOW MUCH YOU LOVE EACH OTHER ?"'])), (_l()(), i1.ɵted(null, ['\n'])),
+        (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵeld(0, null, null, 25, 'div', [['class', 'container']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n	'])), (_l()(),
             i1.ɵeld(0, null, null, 22, 'form', [['class', 'playerTop'], ['novalidate',
-                    '']], [[2, 'ng-untouched', null], [2, 'ng-touched', null], [2,
-                    'ng-pristine', null], [2, 'ng-dirty', null], [2, 'ng-valid',
-                    null], [2, 'ng-invalid', null], [2, 'ng-pending', null]], [[null, 'ngSubmit'], [null, 'submit'], [null, 'reset']], function (_v, en, $event) {
+                    '']], [[2, 'ng-untouched', null], [2, 'ng-touched', null],
+                [2, 'ng-pristine', null], [2, 'ng-dirty', null], [2, 'ng-valid',
+                    null], [2, 'ng-invalid', null], [2, 'ng-pending', null]], [[null, 'ngSubmit'], [null, 'submit'], [null,
+                    'reset']], function (_v, en, $event) {
                 var ad = true;
                 var _co = _v.component;
                 if (('submit' === en)) {
@@ -161,14 +163,12 @@ function View_GamePageComponent_0(_l) {
                     ad = (pd_2 && ad);
                 }
                 return ad;
-            }, null, null)), i1.ɵdid(16384, null, 0, i3.ɵbf, [], null, null), i1.ɵdid(16384, null, 0, i3.NgForm, [[8, null],
-            [8, null]], null, { ngSubmit: 'ngSubmit' }), i1.ɵprd(2048, null, i3.ControlContainer, null, [i3.NgForm]), i1.ɵdid(16384, null, 0, i3.NgControlStatusGroup, [i3.ControlContainer], null, null), (_l()(),
-            i1.ɵted(null, ['\n		'])), (_l()(), i1.ɵeld(0, null, null, 5, 'input', [['name', 'task'], ['placeholder', 'add a task'], ['type', 'text']], [[2,
-                'ng-untouched', null], [2, 'ng-touched', null], [2, 'ng-pristine',
-                null], [2, 'ng-dirty', null], [2, 'ng-valid', null],
-            [2, 'ng-invalid', null], [2, 'ng-pending', null]], [[null,
-                'ngModelChange'], [null, 'input'], [null, 'blur'], [null,
-                'compositionstart'], [null, 'compositionend']], function (_v, en, $event) {
+            }, null, null)), i1.ɵdid(16384, null, 0, i3.ɵbf, [], null, null), i1.ɵdid(16384, null, 0, i3.NgForm, [[8, null], [8, null]], null, { ngSubmit: 'ngSubmit' }),
+        i1.ɵprd(2048, null, i3.ControlContainer, null, [i3.NgForm]), i1.ɵdid(16384, null, 0, i3.NgControlStatusGroup, [i3.ControlContainer], null, null), (_l()(), i1.ɵted(null, ['\n		'])), (_l()(), i1.ɵeld(0, null, null, 5, 'input', [['name', 'task'], ['placeholder', 'add a task'],
+            ['type', 'text']], [[2, 'ng-untouched', null], [2, 'ng-touched', null],
+            [2, 'ng-pristine', null], [2, 'ng-dirty', null], [2, 'ng-valid',
+                null], [2, 'ng-invalid', null], [2, 'ng-pending', null]], [[null, 'ngModelChange'], [null, 'input'], [null,
+                'blur'], [null, 'compositionstart'], [null, 'compositionend']], function (_v, en, $event) {
             var ad = true;
             var _co = _v.component;
             if (('input' === en)) {
@@ -192,8 +192,7 @@ function View_GamePageComponent_0(_l) {
                 ad = (pd_4 && ad);
             }
             return ad;
-        }, null, null)), i1.ɵdid(16384, null, 0, i3.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i3.COMPOSITION_BUFFER_MODE]], null, null),
-        i1.ɵprd(1024, null, i3.NG_VALUE_ACCESSOR, function (p0_0) {
+        }, null, null)), i1.ɵdid(16384, null, 0, i3.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i3.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i3.NG_VALUE_ACCESSOR, function (p0_0) {
             return [p0_0];
         }, [i3.DefaultValueAccessor]), i1.ɵdid(671744, null, 0, i3.NgModel, [[2, i3.ControlContainer],
             [8, null], [8, null], [2, i3.NG_VALUE_ACCESSOR]], { name: [0, 'name'],

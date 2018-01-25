@@ -6,5 +6,5 @@
  /* tslint:disable */
 
 
-export const styles:any[] = ['h3[_ngcontent-%COMP%]{\n	text-transform: uppercase;\n}'];
+export const styles:any[] = ['#resume[_ngcontent-%COMP%]{\n	margin-top: 15px;\n}\nimg[_ngcontent-%COMP%]{\n	border-radius: 30px;\n}\n#noGame[_ngcontent-%COMP%]{\n	background-color: #F9C939;\n}\n\nbutton[_ngcontent-%COMP%]{\n	text-transform: uppercase;\n\n}\n\n.section2[_ngcontent-%COMP%]{\n	margin-left: 10px;\n}'];
 //# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL3VzZXItcHJvZmlsZS91c2VyLXByb2ZpbGUuY29tcG9uZW50LmNzcy5zaGltLm5nc3R5bGUudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9Vc2Vycy9odW5nbXVoYW1hdGgvSG9tZVdvcmsvcHJvamVjdC00L2hvbmV5RG8vc3JjL2FwcC91c2VyLXByb2ZpbGUvdXNlci1wcm9maWxlLmNvbXBvbmVudC5jc3MiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7OyJ9

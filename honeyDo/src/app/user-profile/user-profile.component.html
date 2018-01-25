@@ -1,40 +1,48 @@
 
 <!-- <h1>{{userName}}</h1> -->
-
+<app-navbar></app-navbar>
 <div *ngIf="currentUser" class="container">
 
-	<h3>{{currentUser.userName}}</h3>
+	<!-- <h3>{{currentUser.userName}}</h3> -->
 	<img src = {{currentUser.image}} alt="your face">
 </div>
-
 <div class="container">
-	<form (ngSubmit)="findPartner(partnerName)">
-		<h2> Search for your partner </h2>
-		<input type="text" placeholder="add name"[(ngModel)]="partnerName" name="partner name">
-		<button type="submit" class="btn btn-primary btn-sm">Add</button>
-	</form>
+		<button class="btn btn-primary btn-sm" id="resume"><a routerLink="/GamePage/{{currentUser.gameId}}">Resume Game</a></button>
+		<p>If you don't have an on running game </p>
+		<p>Fill out below</p>
+		<p>1. Find your partner</p>
+		<p>2. Name your game</p>
+		<p>3. Add New Game</p>
 </div>
 
-<div *ngIf="partnerInfo" class="container">
-		<!-- <h2>Search Results</h2> -->
-				<h3>{{partnerInfo.userName}}</h3>
-				<!-- <h5>{{partnerInfo.id}}</h5> -->
-				<img src={{partnerInfo.image}}>	
-		<!-- <button type="submit">Add</button> -->
-</div>
+<div id="noGame">
+	<div class="container">
+		<form (ngSubmit)="findPartner(partnerName)">
+			<h2> Find Your Partner </h2>
+			<input type="text" placeholder="add name"[(ngModel)]="partnerName" name="partner name">
+			<button type="submit" class="btn btn-primary btn-sm section2">Add</button>
+		</form>
+	</div>
 
+	<div *ngIf="partnerInfo" class="container">
+			<!-- <h2>Search Results</h2> -->
+					<h3>{{partnerInfo.userName}}</h3>
+					<!-- <h5>{{partnerInfo.id}}</h5> -->
+					<img src={{partnerInfo.image}}>	
+			<!-- <button type="submit">Add</button> -->
+	</div>
 
-<div class="container">
-	<form (ngSubmit)="createGame(game)">
-		<h2> Create New Game </h2>
-		<p>If you don't have an on running game click "Start New Game"</p>
-		<input type="text" placeholder="add name"[(ngModel)]="game.gameName" name="game's name">
-		<button type="submit" class="btn btn-primary btn-sm">Start New Game</button>
-	</form>
-<!-- 	<form (ngSubmit)="resumeGame()">
-		<h2> Resume Game</h2>
-		<p> If you have an on going game click "Resume Game"</p>
-		<button type="submit">Resume Game</button>
-	</form> -->
-	<button class="btn btn-primary btn-sm"><a routerLink="/GamePage/{{currentUser.gameId}}">Resume Game</a></button>
+	<div class="container">
+		<form (ngSubmit)="createGame(game)">
+			<h2> Add New Game </h2>
+			<input type="text" placeholder="add name"[(ngModel)]="game.gameName" name="game's name">
+			<button type="submit" class="btn btn-primary btn-sm section2">New Game</button>
+		</form>
+	<!-- 	<form (ngSubmit)="resumeGame()">
+			<h2> Resume Game</h2>
+			<p> If you have an on going game click "Resume Game"</p>
+			<button type="submit">Resume Game</button>
+		</form> -->
+		
+	</div>
 </div>

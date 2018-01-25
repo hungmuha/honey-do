@@ -14,10 +14,9 @@ var styles_AppComponent = [i0.styles];
 exports.RenderType_AppComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_AppComponent,
     data: {} });
 function View_AppComponent_0(_l) {
-    return i1.ɵvid(0, [(_l()(), i1.ɵeld(16777216, null, null, 1, 'router-outlet', [], null, null, null, null, null)),
-        i1.ɵdid(212992, null, 0, i2.RouterOutlet, [i2.ChildrenOutletContexts, i1.ViewContainerRef,
-            i1.ComponentFactoryResolver, [8, null], i1.ChangeDetectorRef], null, null)], function (_ck, _v) {
-        _ck(_v, 1, 0);
+    return i1.ɵvid(0, [(_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵeld(16777216, null, null, 1, 'router-outlet', [], null, null, null, null, null)), i1.ɵdid(212992, null, 0, i2.RouterOutlet, [i2.ChildrenOutletContexts, i1.ViewContainerRef, i1.ComponentFactoryResolver, [8,
+                null], i1.ChangeDetectorRef], null, null)], function (_ck, _v) {
+        _ck(_v, 2, 0);
     }, null);
 }
 exports.View_AppComponent_0 = View_AppComponent_0;

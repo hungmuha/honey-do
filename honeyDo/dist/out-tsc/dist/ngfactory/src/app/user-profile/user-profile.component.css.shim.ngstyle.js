@@ -6,5 +6,5 @@
  */
 /* tslint:disable */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.styles = ['h3[_ngcontent-%COMP%]{\n	text-transform: uppercase;\n}'];
+exports.styles = ['#resume[_ngcontent-%COMP%]{\n	margin-top: 15px;\n}\nimg[_ngcontent-%COMP%]{\n	border-radius: 30px;\n}\n#noGame[_ngcontent-%COMP%]{\n	background-color: #F9C939;\n}\n\nbutton[_ngcontent-%COMP%]{\n	text-transform: uppercase;\n\n}\n\n.section2[_ngcontent-%COMP%]{\n	margin-left: 10px;\n}'];
 //# sourceMappingURL=user-profile.component.css.shim.ngstyle.js.map

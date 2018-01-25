@@ -8,40 +8,38 @@
 
 import * as i0 from './user-profile.component.css.shim.ngstyle';
 import * as i1 from '@angular/core';
-import * as i2 from '@angular/common';
-import * as i3 from '../../../../../src/app/user-profile/user-profile.component';
-import * as i4 from '@angular/forms';
-import * as i5 from '@angular/router';
-import * as i6 from '../../../../../src/app/main/main.service';
+import * as i2 from '../navbar/navbar.component.ngfactory';
+import * as i3 from '../../../../../src/app/navbar/navbar.component';
+import * as i4 from '@angular/router';
+import * as i5 from '../../../../../src/app/main/main.service';
+import * as i6 from '@angular/common';
+import * as i7 from '../../../../../src/app/user-profile/user-profile.component';
+import * as i8 from '@angular/forms';
 const styles_UserProfileComponent:any[] = [i0.styles];
 export const RenderType_UserProfileComponent:i1.RendererType2 = i1.ɵcrt({encapsulation:0,
     styles:styles_UserProfileComponent,data:{}});
 function View_UserProfileComponent_1(_l:any):i1.ɵViewDefinition {
-  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),6,'div',[['class',
+  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),4,'div',[['class',
       'container']],(null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i1.ɵted((null as any),['\n\n	'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
-          1,'h3',([] as any[]),(null as any),(null as any),(null as any),(null as any),
-          (null as any))),(_l()(),i1.ɵted((null as any),['',''])),(_l()(),i1.ɵted((null as any),
-          ['\n	'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),0,'img',[['alt',
-          'your face']],[[8,'src',4]],(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i1.ɵted((null as any),['\n\n	'])),(_l()(),i1.ɵted((null as any),['\n	'])),
+      (_l()(),i1.ɵeld(0,(null as any),(null as any),0,'img',[['alt','your face']],
+          [[8,'src',4]],(null as any),(null as any),(null as any),(null as any))),
       (_l()(),i1.ɵted((null as any),['\n']))],(null as any),(_ck,_v) => {
     var _co:any = _v.component;
-    const currVal_0:any = _co.currentUser.userName;
+    const currVal_0:any = i1.ɵinlineInterpolate(1,'',_co.currentUser.image,'');
     _ck(_v,3,0,currVal_0);
-    const currVal_1:any = i1.ɵinlineInterpolate(1,'',_co.currentUser.image,'');
-    _ck(_v,5,0,currVal_1);
   });
 }
 function View_UserProfileComponent_2(_l:any):i1.ɵViewDefinition {
   return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),9,'div',[['class',
       'container']],(null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵted((null as any),['\n				'])),
+      (_l()(),i1.ɵted((null as any),['\n			'])),(_l()(),i1.ɵted((null as any),['\n					'])),
       (_l()(),i1.ɵeld(0,(null as any),(null as any),1,'h3',([] as any[]),(null as any),
           (null as any),(null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
-          ['',''])),(_l()(),i1.ɵted((null as any),['\n				'])),(_l()(),i1.ɵted((null as any),
-          ['\n				'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),0,'img',([] as any[]),
+          ['',''])),(_l()(),i1.ɵted((null as any),['\n					'])),(_l()(),i1.ɵted((null as any),
+          ['\n					'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),0,'img',([] as any[]),
           [[8,'src',4]],(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i1.ɵted((null as any),['	\n		'])),(_l()(),i1.ɵted((null as any),['\n']))],
+      (_l()(),i1.ɵted((null as any),['	\n			'])),(_l()(),i1.ɵted((null as any),['\n	']))],
       (null as any),(_ck,_v) => {
         var _co:any = _v.component;
         const currVal_0:any = _co.partnerInfo.userName;
@@ -52,25 +50,61 @@ function View_UserProfileComponent_2(_l:any):i1.ɵViewDefinition {
 }
 export function View_UserProfileComponent_0(_l:any):i1.ɵViewDefinition {
   return i1.ɵvid(0,[(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵted((null as any),
-      ['\n\n'])),(_l()(),i1.ɵand(16777216,(null as any),(null as any),1,(null as any),
-      View_UserProfileComponent_1)),i1.ɵdid(16384,(null as any),0,i2.NgIf,[i1.ViewContainerRef,
-      i1.TemplateRef],{ngIf:[0,'ngIf']},(null as any)),(_l()(),i1.ɵted((null as any),
-      ['\n\n'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),21,'div',[['class',
-      'container']],(null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i1.ɵted((null as any),['\n	'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+      ['\n'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'app-navbar',([] as any[]),
+      (null as any),(null as any),(null as any),i2.View_NavbarComponent_0,i2.RenderType_NavbarComponent)),
+      i1.ɵdid(114688,(null as any),0,i3.NavbarComponent,[i4.ActivatedRoute,i5.MainService],
+          (null as any),(null as any)),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),
+          i1.ɵand(16777216,(null as any),(null as any),1,(null as any),View_UserProfileComponent_1)),
+      i1.ɵdid(16384,(null as any),0,i6.NgIf,[i1.ViewContainerRef,i1.TemplateRef],{ngIf:[0,
+          'ngIf']},(null as any)),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵeld(0,
+          (null as any),(null as any),18,'div',[['class','container']],(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
+          ['\n		'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),3,'button',[['class',
+          'btn btn-primary btn-sm'],['id','resume']],(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+          2,'a',([] as any[]),[[1,'target',0],[8,'href',4]],[[(null as any),'click']],
+          (_v,en,$event) => {
+            var ad:boolean = true;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>i1.ɵnov(_v,12).onClick($event.button,$event.ctrlKey,
+                  $event.metaKey,$event.shiftKey)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },(null as any),(null as any))),i1.ɵdid(671744,(null as any),0,i4.RouterLinkWithHref,
+          [i4.Router,i4.ActivatedRoute,i6.LocationStrategy],{routerLink:[0,'routerLink']},
+          (null as any)),(_l()(),i1.ɵted((null as any),['Resume Game'])),(_l()(),i1.ɵted((null as any),
+          ['\n		'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i1.ɵted((null as any),['If you don\'t have an on running game '])),(_l()(),
+          i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+          1,'p',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i1.ɵted((null as any),['1. Find your partner'])),
+      (_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+          1,'p',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i1.ɵted((null as any),['2. Name your game'])),(_l()(),
+          i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+          1,'p',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i1.ɵted((null as any),['3. click "New Game"'])),
+      (_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵted((null as any),['\n\n'])),
+      (_l()(),i1.ɵeld(0,(null as any),(null as any),51,'div',[['id','noGame']],(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
+          ['\n	'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),21,'div',[['class',
+          'container']],(null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
           18,'form',[['novalidate','']],[[2,'ng-untouched',(null as any)],[2,'ng-touched',
               (null as any)],[2,'ng-pristine',(null as any)],[2,'ng-dirty',(null as any)],
               [2,'ng-valid',(null as any)],[2,'ng-invalid',(null as any)],[2,'ng-pending',
                   (null as any)]],[[(null as any),'ngSubmit'],[(null as any),'submit'],
               [(null as any),'reset']],(_v,en,$event) => {
             var ad:boolean = true;
-            var _co:i3.UserProfileComponent = _v.component;
+            var _co:i7.UserProfileComponent = _v.component;
             if (('submit' === en)) {
-              const pd_0:any = ((<any>i1.ɵnov(_v,9).onSubmit($event)) !== false);
+              const pd_0:any = ((<any>i1.ɵnov(_v,34).onSubmit($event)) !== false);
               ad = (pd_0 && ad);
             }
             if (('reset' === en)) {
-              const pd_1:any = ((<any>i1.ɵnov(_v,9).onReset()) !== false);
+              const pd_1:any = ((<any>i1.ɵnov(_v,34).onReset()) !== false);
               ad = (pd_1 && ad);
             }
             if (('ngSubmit' === en)) {
@@ -78,78 +112,78 @@ export function View_UserProfileComponent_0(_l:any):i1.ɵViewDefinition {
               ad = (pd_2 && ad);
             }
             return ad;
-          },(null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i4.ɵbf,([] as any[]),
-          (null as any),(null as any)),i1.ɵdid(16384,(null as any),0,i4.NgForm,[[8,
+          },(null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i8.ɵbf,([] as any[]),
+          (null as any),(null as any)),i1.ɵdid(16384,(null as any),0,i8.NgForm,[[8,
           (null as any)],[8,(null as any)]],(null as any),{ngSubmit:'ngSubmit'}),i1.ɵprd(2048,
-          (null as any),i4.ControlContainer,(null as any),[i4.NgForm]),i1.ɵdid(16384,
-          (null as any),0,i4.NgControlStatusGroup,[i4.ControlContainer],(null as any),
-          (null as any)),(_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵeld(0,
+          (null as any),i8.ControlContainer,(null as any),[i8.NgForm]),i1.ɵdid(16384,
+          (null as any),0,i8.NgControlStatusGroup,[i8.ControlContainer],(null as any),
+          (null as any)),(_l()(),i1.ɵted((null as any),['\n			'])),(_l()(),i1.ɵeld(0,
           (null as any),(null as any),1,'h2',([] as any[]),(null as any),(null as any),
           (null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
-          [' Search for your partner '])),(_l()(),i1.ɵted((null as any),['\n		'])),
-      (_l()(),i1.ɵeld(0,(null as any),(null as any),5,'input',[['name','partner name'],
-          ['placeholder','add name'],['type','text']],[[2,'ng-untouched',(null as any)],
-          [2,'ng-touched',(null as any)],[2,'ng-pristine',(null as any)],[2,'ng-dirty',
-              (null as any)],[2,'ng-valid',(null as any)],[2,'ng-invalid',(null as any)],
-          [2,'ng-pending',(null as any)]],[[(null as any),'ngModelChange'],[(null as any),
-          'input'],[(null as any),'blur'],[(null as any),'compositionstart'],[(null as any),
-          'compositionend']],(_v,en,$event) => {
-        var ad:boolean = true;
-        var _co:i3.UserProfileComponent = _v.component;
-        if (('input' === en)) {
-          const pd_0:any = ((<any>i1.ɵnov(_v,17)._handleInput($event.target.value)) !== false);
-          ad = (pd_0 && ad);
-        }
-        if (('blur' === en)) {
-          const pd_1:any = ((<any>i1.ɵnov(_v,17).onTouched()) !== false);
-          ad = (pd_1 && ad);
-        }
-        if (('compositionstart' === en)) {
-          const pd_2:any = ((<any>i1.ɵnov(_v,17)._compositionStart()) !== false);
-          ad = (pd_2 && ad);
-        }
-        if (('compositionend' === en)) {
-          const pd_3:any = ((<any>i1.ɵnov(_v,17)._compositionEnd($event.target.value)) !== false);
-          ad = (pd_3 && ad);
-        }
-        if (('ngModelChange' === en)) {
-          const pd_4:any = ((<any>(_co.partnerName = $event)) !== false);
-          ad = (pd_4 && ad);
-        }
-        return ad;
-      },(null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i4.DefaultValueAccessor,
-          [i1.Renderer2,i1.ElementRef,[2,i4.COMPOSITION_BUFFER_MODE]],(null as any),
-          (null as any)),i1.ɵprd(1024,(null as any),i4.NG_VALUE_ACCESSOR,(p0_0:any) => {
+          [' Find Your Partner '])),(_l()(),i1.ɵted((null as any),['\n			'])),(_l()(),
+          i1.ɵeld(0,(null as any),(null as any),5,'input',[['name','partner name'],
+              ['placeholder','add name'],['type','text']],[[2,'ng-untouched',(null as any)],
+              [2,'ng-touched',(null as any)],[2,'ng-pristine',(null as any)],[2,'ng-dirty',
+                  (null as any)],[2,'ng-valid',(null as any)],[2,'ng-invalid',(null as any)],
+              [2,'ng-pending',(null as any)]],[[(null as any),'ngModelChange'],[(null as any),
+              'input'],[(null as any),'blur'],[(null as any),'compositionstart'],[(null as any),
+              'compositionend']],(_v,en,$event) => {
+            var ad:boolean = true;
+            var _co:i7.UserProfileComponent = _v.component;
+            if (('input' === en)) {
+              const pd_0:any = ((<any>i1.ɵnov(_v,42)._handleInput($event.target.value)) !== false);
+              ad = (pd_0 && ad);
+            }
+            if (('blur' === en)) {
+              const pd_1:any = ((<any>i1.ɵnov(_v,42).onTouched()) !== false);
+              ad = (pd_1 && ad);
+            }
+            if (('compositionstart' === en)) {
+              const pd_2:any = ((<any>i1.ɵnov(_v,42)._compositionStart()) !== false);
+              ad = (pd_2 && ad);
+            }
+            if (('compositionend' === en)) {
+              const pd_3:any = ((<any>i1.ɵnov(_v,42)._compositionEnd($event.target.value)) !== false);
+              ad = (pd_3 && ad);
+            }
+            if (('ngModelChange' === en)) {
+              const pd_4:any = ((<any>(_co.partnerName = $event)) !== false);
+              ad = (pd_4 && ad);
+            }
+            return ad;
+          },(null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i8.DefaultValueAccessor,
+          [i1.Renderer2,i1.ElementRef,[2,i8.COMPOSITION_BUFFER_MODE]],(null as any),
+          (null as any)),i1.ɵprd(1024,(null as any),i8.NG_VALUE_ACCESSOR,(p0_0:any) => {
         return [p0_0];
-      },[i4.DefaultValueAccessor]),i1.ɵdid(671744,(null as any),0,i4.NgModel,[[2,i4.ControlContainer],
-          [8,(null as any)],[8,(null as any)],[2,i4.NG_VALUE_ACCESSOR]],{name:[0,'name'],
+      },[i8.DefaultValueAccessor]),i1.ɵdid(671744,(null as any),0,i8.NgModel,[[2,i8.ControlContainer],
+          [8,(null as any)],[8,(null as any)],[2,i8.NG_VALUE_ACCESSOR]],{name:[0,'name'],
           model:[1,'model']},{update:'ngModelChange'}),i1.ɵprd(2048,(null as any),
-          i4.NgControl,(null as any),[i4.NgModel]),i1.ɵdid(16384,(null as any),0,i4.NgControlStatus,
-          [i4.NgControl],(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
-          ['\n		'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'button',[['class',
-          'btn btn-primary btn-sm'],['type','submit']],(null as any),(null as any),
+          i8.NgControl,(null as any),[i8.NgModel]),i1.ɵdid(16384,(null as any),0,i8.NgControlStatus,
+          [i8.NgControl],(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
+          ['\n			'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'button',[['class',
+          'btn btn-primary btn-sm section2'],['type','submit']],(null as any),(null as any),
           (null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
-          ['Add'])),(_l()(),i1.ɵted((null as any),['\n	'])),(_l()(),i1.ɵted((null as any),
-          ['\n'])),(_l()(),i1.ɵted((null as any),['\n\n'])),(_l()(),i1.ɵand(16777216,
+          ['Add'])),(_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵted((null as any),
+          ['\n	'])),(_l()(),i1.ɵted((null as any),['\n\n	'])),(_l()(),i1.ɵand(16777216,
           (null as any),(null as any),1,(null as any),View_UserProfileComponent_2)),
-      i1.ɵdid(16384,(null as any),0,i2.NgIf,[i1.ViewContainerRef,i1.TemplateRef],{ngIf:[0,
-          'ngIf']},(null as any)),(_l()(),i1.ɵted((null as any),['\n\n\n'])),(_l()(),
-          i1.ɵeld(0,(null as any),(null as any),30,'div',[['class','container']],(null as any),
+      i1.ɵdid(16384,(null as any),0,i6.NgIf,[i1.ViewContainerRef,i1.TemplateRef],{ngIf:[0,
+          'ngIf']},(null as any)),(_l()(),i1.ɵted((null as any),['\n\n	'])),(_l()(),
+          i1.ɵeld(0,(null as any),(null as any),22,'div',[['class','container']],(null as any),
               (null as any),(null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
-          ['\n	'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),21,'form',[['novalidate',
+          ['\n		'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),18,'form',[['novalidate',
           '']],[[2,'ng-untouched',(null as any)],[2,'ng-touched',(null as any)],[2,
           'ng-pristine',(null as any)],[2,'ng-dirty',(null as any)],[2,'ng-valid',
           (null as any)],[2,'ng-invalid',(null as any)],[2,'ng-pending',(null as any)]],
           [[(null as any),'ngSubmit'],[(null as any),'submit'],[(null as any),'reset']],
           (_v,en,$event) => {
             var ad:boolean = true;
-            var _co:i3.UserProfileComponent = _v.component;
+            var _co:i7.UserProfileComponent = _v.component;
             if (('submit' === en)) {
-              const pd_0:any = ((<any>i1.ɵnov(_v,35).onSubmit($event)) !== false);
+              const pd_0:any = ((<any>i1.ɵnov(_v,60).onSubmit($event)) !== false);
               ad = (pd_0 && ad);
             }
             if (('reset' === en)) {
-              const pd_1:any = ((<any>i1.ɵnov(_v,35).onReset()) !== false);
+              const pd_1:any = ((<any>i1.ɵnov(_v,60).onReset()) !== false);
               ad = (pd_1 && ad);
             }
             if (('ngSubmit' === en)) {
@@ -157,41 +191,38 @@ export function View_UserProfileComponent_0(_l:any):i1.ɵViewDefinition {
               ad = (pd_2 && ad);
             }
             return ad;
-          },(null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i4.ɵbf,([] as any[]),
-          (null as any),(null as any)),i1.ɵdid(16384,(null as any),0,i4.NgForm,[[8,
+          },(null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i8.ɵbf,([] as any[]),
+          (null as any),(null as any)),i1.ɵdid(16384,(null as any),0,i8.NgForm,[[8,
           (null as any)],[8,(null as any)]],(null as any),{ngSubmit:'ngSubmit'}),i1.ɵprd(2048,
-          (null as any),i4.ControlContainer,(null as any),[i4.NgForm]),i1.ɵdid(16384,
-          (null as any),0,i4.NgControlStatusGroup,[i4.ControlContainer],(null as any),
-          (null as any)),(_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵeld(0,
+          (null as any),i8.ControlContainer,(null as any),[i8.NgForm]),i1.ɵdid(16384,
+          (null as any),0,i8.NgControlStatusGroup,[i8.ControlContainer],(null as any),
+          (null as any)),(_l()(),i1.ɵted((null as any),['\n			'])),(_l()(),i1.ɵeld(0,
           (null as any),(null as any),1,'h2',([] as any[]),(null as any),(null as any),
           (null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
-          [' Create New Game '])),(_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),
-          i1.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),(null as any),
-              (null as any),(null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
-          ['If you don\'t have an on running game click "Start New Game"'])),(_l()(),
-          i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
-          5,'input',[['name','game\'s name'],['placeholder','add name'],['type','text']],
-          [[2,'ng-untouched',(null as any)],[2,'ng-touched',(null as any)],[2,'ng-pristine',
-              (null as any)],[2,'ng-dirty',(null as any)],[2,'ng-valid',(null as any)],
-              [2,'ng-invalid',(null as any)],[2,'ng-pending',(null as any)]],[[(null as any),
-              'ngModelChange'],[(null as any),'input'],[(null as any),'blur'],[(null as any),
-              'compositionstart'],[(null as any),'compositionend']],(_v,en,$event) => {
+          [' Add New Game '])),(_l()(),i1.ɵted((null as any),['\n			'])),(_l()(),i1.ɵeld(0,
+          (null as any),(null as any),5,'input',[['name','game\'s name'],['placeholder',
+              'add name'],['type','text']],[[2,'ng-untouched',(null as any)],[2,'ng-touched',
+              (null as any)],[2,'ng-pristine',(null as any)],[2,'ng-dirty',(null as any)],
+              [2,'ng-valid',(null as any)],[2,'ng-invalid',(null as any)],[2,'ng-pending',
+                  (null as any)]],[[(null as any),'ngModelChange'],[(null as any),
+              'input'],[(null as any),'blur'],[(null as any),'compositionstart'],[(null as any),
+              'compositionend']],(_v,en,$event) => {
             var ad:boolean = true;
-            var _co:i3.UserProfileComponent = _v.component;
+            var _co:i7.UserProfileComponent = _v.component;
             if (('input' === en)) {
-              const pd_0:any = ((<any>i1.ɵnov(_v,46)._handleInput($event.target.value)) !== false);
+              const pd_0:any = ((<any>i1.ɵnov(_v,68)._handleInput($event.target.value)) !== false);
               ad = (pd_0 && ad);
             }
             if (('blur' === en)) {
-              const pd_1:any = ((<any>i1.ɵnov(_v,46).onTouched()) !== false);
+              const pd_1:any = ((<any>i1.ɵnov(_v,68).onTouched()) !== false);
               ad = (pd_1 && ad);
             }
             if (('compositionstart' === en)) {
-              const pd_2:any = ((<any>i1.ɵnov(_v,46)._compositionStart()) !== false);
+              const pd_2:any = ((<any>i1.ɵnov(_v,68)._compositionStart()) !== false);
               ad = (pd_2 && ad);
             }
             if (('compositionend' === en)) {
-              const pd_3:any = ((<any>i1.ɵnov(_v,46)._compositionEnd($event.target.value)) !== false);
+              const pd_3:any = ((<any>i1.ɵnov(_v,68)._compositionEnd($event.target.value)) !== false);
               ad = (pd_3 && ad);
             }
             if (('ngModelChange' === en)) {
@@ -199,97 +230,85 @@ export function View_UserProfileComponent_0(_l:any):i1.ɵViewDefinition {
               ad = (pd_4 && ad);
             }
             return ad;
-          },(null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i4.DefaultValueAccessor,
-          [i1.Renderer2,i1.ElementRef,[2,i4.COMPOSITION_BUFFER_MODE]],(null as any),
-          (null as any)),i1.ɵprd(1024,(null as any),i4.NG_VALUE_ACCESSOR,(p0_0:any) => {
+          },(null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i8.DefaultValueAccessor,
+          [i1.Renderer2,i1.ElementRef,[2,i8.COMPOSITION_BUFFER_MODE]],(null as any),
+          (null as any)),i1.ɵprd(1024,(null as any),i8.NG_VALUE_ACCESSOR,(p0_0:any) => {
         return [p0_0];
-      },[i4.DefaultValueAccessor]),i1.ɵdid(671744,(null as any),0,i4.NgModel,[[2,i4.ControlContainer],
-          [8,(null as any)],[8,(null as any)],[2,i4.NG_VALUE_ACCESSOR]],{name:[0,'name'],
+      },[i8.DefaultValueAccessor]),i1.ɵdid(671744,(null as any),0,i8.NgModel,[[2,i8.ControlContainer],
+          [8,(null as any)],[8,(null as any)],[2,i8.NG_VALUE_ACCESSOR]],{name:[0,'name'],
           model:[1,'model']},{update:'ngModelChange'}),i1.ɵprd(2048,(null as any),
-          i4.NgControl,(null as any),[i4.NgModel]),i1.ɵdid(16384,(null as any),0,i4.NgControlStatus,
-          [i4.NgControl],(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
-          ['\n		'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'button',[['class',
-          'btn btn-primary btn-sm'],['type','submit']],(null as any),(null as any),
+          i8.NgControl,(null as any),[i8.NgModel]),i1.ɵdid(16384,(null as any),0,i8.NgControlStatus,
+          [i8.NgControl],(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
+          ['\n			'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'button',[['class',
+          'btn btn-primary btn-sm section2'],['type','submit']],(null as any),(null as any),
           (null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
-          ['Start New Game'])),(_l()(),i1.ɵted((null as any),['\n	'])),(_l()(),i1.ɵted((null as any),
-          ['\n'])),(_l()(),i1.ɵted((null as any),['\n	'])),(_l()(),i1.ɵeld(0,(null as any),
-          (null as any),3,'button',[['class','btn btn-primary btn-sm']],(null as any),
-          (null as any),(null as any),(null as any),(null as any))),(_l()(),i1.ɵeld(0,
-          (null as any),(null as any),2,'a',([] as any[]),[[1,'target',0],[8,'href',
-              4]],[[(null as any),'click']],(_v,en,$event) => {
-            var ad:boolean = true;
-            if (('click' === en)) {
-              const pd_0:any = ((<any>i1.ɵnov(_v,59).onClick($event.button,$event.ctrlKey,
-                  $event.metaKey,$event.shiftKey)) !== false);
-              ad = (pd_0 && ad);
-            }
-            return ad;
-          },(null as any),(null as any))),i1.ɵdid(671744,(null as any),0,i5.RouterLinkWithHref,
-          [i5.Router,i5.ActivatedRoute,i2.LocationStrategy],{routerLink:[0,'routerLink']},
-          (null as any)),(_l()(),i1.ɵted((null as any),['Resume Game'])),(_l()(),i1.ɵted((null as any),
+          ['New Game'])),(_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵted((null as any),
+          ['\n	'])),(_l()(),i1.ɵted((null as any),['\n		\n	'])),(_l()(),i1.ɵted((null as any),
           ['\n'])),(_l()(),i1.ɵted((null as any),['\n']))],(_ck,_v) => {
-    var _co:i3.UserProfileComponent = _v.component;
+    var _co:i7.UserProfileComponent = _v.component;
+    _ck(_v,3,0);
     const currVal_0:any = _co.currentUser;
-    _ck(_v,3,0,currVal_0);
-    const currVal_15:any = 'partner name';
-    const currVal_16:any = _co.partnerName;
-    _ck(_v,19,0,currVal_15,currVal_16);
-    const currVal_17:any = _co.partnerInfo;
-    _ck(_v,29,0,currVal_17);
-    const currVal_32:any = 'game\'s name';
-    const currVal_33:any = _co.game.gameName;
-    _ck(_v,48,0,currVal_32,currVal_33);
-    const currVal_36:any = i1.ɵinlineInterpolate(1,'/GamePage/',_co.currentUser.gameId,
+    _ck(_v,6,0,currVal_0);
+    const currVal_3:any = i1.ɵinlineInterpolate(1,'/GamePage/',_co.currentUser.gameId,
         '');
-    _ck(_v,59,0,currVal_36);
+    _ck(_v,12,0,currVal_3);
+    const currVal_18:any = 'partner name';
+    const currVal_19:any = _co.partnerName;
+    _ck(_v,44,0,currVal_18,currVal_19);
+    const currVal_20:any = _co.partnerInfo;
+    _ck(_v,54,0,currVal_20);
+    const currVal_35:any = 'game\'s name';
+    const currVal_36:any = _co.game.gameName;
+    _ck(_v,70,0,currVal_35,currVal_36);
   },(_ck,_v) => {
-    const currVal_1:any = i1.ɵnov(_v,11).ngClassUntouched;
-    const currVal_2:any = i1.ɵnov(_v,11).ngClassTouched;
-    const currVal_3:any = i1.ɵnov(_v,11).ngClassPristine;
-    const currVal_4:any = i1.ɵnov(_v,11).ngClassDirty;
-    const currVal_5:any = i1.ɵnov(_v,11).ngClassValid;
-    const currVal_6:any = i1.ɵnov(_v,11).ngClassInvalid;
-    const currVal_7:any = i1.ɵnov(_v,11).ngClassPending;
-    _ck(_v,7,0,currVal_1,currVal_2,currVal_3,currVal_4,currVal_5,currVal_6,currVal_7);
-    const currVal_8:any = i1.ɵnov(_v,21).ngClassUntouched;
-    const currVal_9:any = i1.ɵnov(_v,21).ngClassTouched;
-    const currVal_10:any = i1.ɵnov(_v,21).ngClassPristine;
-    const currVal_11:any = i1.ɵnov(_v,21).ngClassDirty;
-    const currVal_12:any = i1.ɵnov(_v,21).ngClassValid;
-    const currVal_13:any = i1.ɵnov(_v,21).ngClassInvalid;
-    const currVal_14:any = i1.ɵnov(_v,21).ngClassPending;
-    _ck(_v,16,0,currVal_8,currVal_9,currVal_10,currVal_11,currVal_12,currVal_13,currVal_14);
-    const currVal_18:any = i1.ɵnov(_v,37).ngClassUntouched;
-    const currVal_19:any = i1.ɵnov(_v,37).ngClassTouched;
-    const currVal_20:any = i1.ɵnov(_v,37).ngClassPristine;
-    const currVal_21:any = i1.ɵnov(_v,37).ngClassDirty;
-    const currVal_22:any = i1.ɵnov(_v,37).ngClassValid;
-    const currVal_23:any = i1.ɵnov(_v,37).ngClassInvalid;
-    const currVal_24:any = i1.ɵnov(_v,37).ngClassPending;
-    _ck(_v,33,0,currVal_18,currVal_19,currVal_20,currVal_21,currVal_22,currVal_23,
-        currVal_24);
-    const currVal_25:any = i1.ɵnov(_v,50).ngClassUntouched;
-    const currVal_26:any = i1.ɵnov(_v,50).ngClassTouched;
-    const currVal_27:any = i1.ɵnov(_v,50).ngClassPristine;
-    const currVal_28:any = i1.ɵnov(_v,50).ngClassDirty;
-    const currVal_29:any = i1.ɵnov(_v,50).ngClassValid;
-    const currVal_30:any = i1.ɵnov(_v,50).ngClassInvalid;
-    const currVal_31:any = i1.ɵnov(_v,50).ngClassPending;
-    _ck(_v,45,0,currVal_25,currVal_26,currVal_27,currVal_28,currVal_29,currVal_30,
-        currVal_31);
-    const currVal_34:any = i1.ɵnov(_v,59).target;
-    const currVal_35:any = i1.ɵnov(_v,59).href;
-    _ck(_v,58,0,currVal_34,currVal_35);
+    const currVal_1:any = i1.ɵnov(_v,12).target;
+    const currVal_2:any = i1.ɵnov(_v,12).href;
+    _ck(_v,11,0,currVal_1,currVal_2);
+    const currVal_4:any = i1.ɵnov(_v,36).ngClassUntouched;
+    const currVal_5:any = i1.ɵnov(_v,36).ngClassTouched;
+    const currVal_6:any = i1.ɵnov(_v,36).ngClassPristine;
+    const currVal_7:any = i1.ɵnov(_v,36).ngClassDirty;
+    const currVal_8:any = i1.ɵnov(_v,36).ngClassValid;
+    const currVal_9:any = i1.ɵnov(_v,36).ngClassInvalid;
+    const currVal_10:any = i1.ɵnov(_v,36).ngClassPending;
+    _ck(_v,32,0,currVal_4,currVal_5,currVal_6,currVal_7,currVal_8,currVal_9,currVal_10);
+    const currVal_11:any = i1.ɵnov(_v,46).ngClassUntouched;
+    const currVal_12:any = i1.ɵnov(_v,46).ngClassTouched;
+    const currVal_13:any = i1.ɵnov(_v,46).ngClassPristine;
+    const currVal_14:any = i1.ɵnov(_v,46).ngClassDirty;
+    const currVal_15:any = i1.ɵnov(_v,46).ngClassValid;
+    const currVal_16:any = i1.ɵnov(_v,46).ngClassInvalid;
+    const currVal_17:any = i1.ɵnov(_v,46).ngClassPending;
+    _ck(_v,41,0,currVal_11,currVal_12,currVal_13,currVal_14,currVal_15,currVal_16,
+        currVal_17);
+    const currVal_21:any = i1.ɵnov(_v,62).ngClassUntouched;
+    const currVal_22:any = i1.ɵnov(_v,62).ngClassTouched;
+    const currVal_23:any = i1.ɵnov(_v,62).ngClassPristine;
+    const currVal_24:any = i1.ɵnov(_v,62).ngClassDirty;
+    const currVal_25:any = i1.ɵnov(_v,62).ngClassValid;
+    const currVal_26:any = i1.ɵnov(_v,62).ngClassInvalid;
+    const currVal_27:any = i1.ɵnov(_v,62).ngClassPending;
+    _ck(_v,58,0,currVal_21,currVal_22,currVal_23,currVal_24,currVal_25,currVal_26,
+        currVal_27);
+    const currVal_28:any = i1.ɵnov(_v,72).ngClassUntouched;
+    const currVal_29:any = i1.ɵnov(_v,72).ngClassTouched;
+    const currVal_30:any = i1.ɵnov(_v,72).ngClassPristine;
+    const currVal_31:any = i1.ɵnov(_v,72).ngClassDirty;
+    const currVal_32:any = i1.ɵnov(_v,72).ngClassValid;
+    const currVal_33:any = i1.ɵnov(_v,72).ngClassInvalid;
+    const currVal_34:any = i1.ɵnov(_v,72).ngClassPending;
+    _ck(_v,67,0,currVal_28,currVal_29,currVal_30,currVal_31,currVal_32,currVal_33,
+        currVal_34);
   });
 }
 export function View_UserProfileComponent_Host_0(_l:any):i1.ɵViewDefinition {
   return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'app-user-profile',
       ([] as any[]),(null as any),(null as any),(null as any),View_UserProfileComponent_0,
-      RenderType_UserProfileComponent)),i1.ɵdid(114688,(null as any),0,i3.UserProfileComponent,
-      [i5.ActivatedRoute,i6.MainService],(null as any),(null as any))],(_ck,_v) => {
+      RenderType_UserProfileComponent)),i1.ɵdid(114688,(null as any),0,i7.UserProfileComponent,
+      [i4.ActivatedRoute,i5.MainService],(null as any),(null as any))],(_ck,_v) => {
     _ck(_v,1,0);
   },(null as any));
 }
-export const UserProfileComponentNgFactory:i1.ComponentFactory<i3.UserProfileComponent> = i1.ɵccf('app-user-profile',
-    i3.UserProfileComponent,View_UserProfileComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL3VzZXItcHJvZmlsZS91c2VyLXByb2ZpbGUuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL3VzZXItcHJvZmlsZS91c2VyLXByb2ZpbGUuY29tcG9uZW50LnRzIiwibmc6Ly8vVXNlcnMvaHVuZ211aGFtYXRoL0hvbWVXb3JrL3Byb2plY3QtNC9ob25leURvL3NyYy9hcHAvdXNlci1wcm9maWxlL3VzZXItcHJvZmlsZS5jb21wb25lbnQuaHRtbCIsIm5nOi8vL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL3VzZXItcHJvZmlsZS91c2VyLXByb2ZpbGUuY29tcG9uZW50LnRzLlVzZXJQcm9maWxlQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiXG48IS0tIDxoMT57e3VzZXJOYW1lfX08L2gxPiAtLT5cblxuPGRpdiAqbmdJZj1cImN1cnJlbnRVc2VyXCIgY2xhc3M9XCJjb250YWluZXJcIj5cblxuXHQ8aDM+e3tjdXJyZW50VXNlci51c2VyTmFtZX19PC9oMz5cblx0PGltZyBzcmMgPSB7e2N1cnJlbnRVc2VyLmltYWdlfX0gYWx0PVwieW91ciBmYWNlXCI+XG48L2Rpdj5cblxuPGRpdiBjbGFzcz1cImNvbnRhaW5lclwiPlxuXHQ8Zm9ybSAobmdTdWJtaXQpPVwiZmluZFBhcnRuZXIocGFydG5lck5hbWUpXCI+XG5cdFx0PGgyPiBTZWFyY2ggZm9yIHlvdXIgcGFydG5lciA8L2gyPlxuXHRcdDxpbnB1dCB0eXBlPVwidGV4dFwiIHBsYWNlaG9sZGVyPVwiYWRkIG5hbWVcIlsobmdNb2RlbCldPVwicGFydG5lck5hbWVcIiBuYW1lPVwicGFydG5lciBuYW1lXCI+XG5cdFx0PGJ1dHRvbiB0eXBlPVwic3VibWl0XCIgY2xhc3M9XCJidG4gYnRuLXByaW1hcnkgYnRuLXNtXCI+QWRkPC9idXR0b24+XG5cdDwvZm9ybT5cbjwvZGl2PlxuXG48ZGl2ICpuZ0lmPVwicGFydG5lckluZm9cIiBjbGFzcz1cImNvbnRhaW5lclwiPlxuXHRcdDwhLS0gPGgyPlNlYXJjaCBSZXN1bHRzPC9oMj4gLS0+XG5cdFx0XHRcdDxoMz57e3BhcnRuZXJJbmZvLnVzZXJOYW1lfX08L2gzPlxuXHRcdFx0XHQ8IS0tIDxoNT57e3BhcnRuZXJJbmZvLmlkfX08L2g1PiAtLT5cblx0XHRcdFx0PGltZyBzcmM9e3twYXJ0bmVySW5mby5pbWFnZX19Plx0XG5cdFx0PCEtLSA8YnV0dG9uIHR5cGU9XCJzdWJtaXRcIj5BZGQ8L2J1dHRvbj4gLS0+XG48L2Rpdj5cblxuXG48ZGl2IGNsYXNzPVwiY29udGFpbmVyXCI+XG5cdDxmb3JtIChuZ1N1Ym1pdCk9XCJjcmVhdGVHYW1lKGdhbWUpXCI+XG5cdFx0PGgyPiBDcmVhdGUgTmV3IEdhbWUgPC9oMj5cblx0XHQ8cD5JZiB5b3UgZG9uJ3QgaGF2ZSBhbiBvbiBydW5uaW5nIGdhbWUgY2xpY2sgXCJTdGFydCBOZXcgR2FtZVwiPC9wPlxuXHRcdDxpbnB1dCB0eXBlPVwidGV4dFwiIHBsYWNlaG9sZGVyPVwiYWRkIG5hbWVcIlsobmdNb2RlbCldPVwiZ2FtZS5nYW1lTmFtZVwiIG5hbWU9XCJnYW1lJ3MgbmFtZVwiPlxuXHRcdDxidXR0b24gdHlwZT1cInN1Ym1pdFwiIGNsYXNzPVwiYnRuIGJ0bi1wcmltYXJ5IGJ0bi1zbVwiPlN0YXJ0IE5ldyBHYW1lPC9idXR0b24+XG5cdDwvZm9ybT5cbjwhLS0gXHQ8Zm9ybSAobmdTdWJtaXQpPVwicmVzdW1lR2FtZSgpXCI+XG5cdFx0PGgyPiBSZXN1bWUgR2FtZTwvaDI+XG5cdFx0PHA+IElmIHlvdSBoYXZlIGFuIG9uIGdvaW5nIGdhbWUgY2xpY2sgXCJSZXN1bWUgR2FtZVwiPC9wPlxuXHRcdDxidXR0b24gdHlwZT1cInN1Ym1pdFwiPlJlc3VtZSBHYW1lPC9idXR0b24+XG5cdDwvZm9ybT4gLS0+XG5cdDxidXR0b24gY2xhc3M9XCJidG4gYnRuLXByaW1hcnkgYnRuLXNtXCI+PGEgcm91dGVyTGluaz1cIi9HYW1lUGFnZS97e2N1cnJlbnRVc2VyLmdhbWVJZH19XCI+UmVzdW1lIEdhbWU8L2E+PC9idXR0b24+XG48L2Rpdj5cbiIsIjxhcHAtdXNlci1wcm9maWxlPjwvYXBwLXVzZXItcHJvZmlsZT4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7O29CQ0dBO01BQUE7TUFBMkMsMENBRTFDO1VBQUE7VUFBQSxnQkFBSSx3Q0FBNkI7VUFBQSxVQUNqQztVQUFBO01BQWlEOztJQUQ3QztJQUFBO0lBQ0M7SUFBTCxXQUFLLFNBQUw7Ozs7b0JBV0Q7TUFBQTtNQUEyQyx5Q0FDVDtNQUM5QjtVQUFBLDBEQUFJO1VBQUEsVUFBNkIsMkNBQ0c7VUFBQSxhQUNwQztVQUFBO01BQStCLDBDQUNVOzs7UUFIckM7UUFBQTtRQUVDO1FBQUwsV0FBSyxTQUFMOzs7O29CQXJCSix1Q0FDOEI7TUFBQSxXQUU5QjtNQUFBLHFDQUFBO29CQUFBLG1DQUlNO01BQUEsV0FFTjtNQUFBO01BQXVCLHdDQUN0QjtVQUFBO2NBQUE7Y0FBQTtrQkFBQTtjQUFBO1lBQUE7WUFBQTtZQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBTTtjQUFBO2NBQUE7WUFBQTtZQUFOO1VBQUEsdUNBQUE7VUFBQSxvQ0FBQTtVQUFBLDhFQUFBO1VBQUEsb0VBQUE7VUFBQTtVQUFBLGVBQTRDLHlDQUMzQztVQUFBO1VBQUEsNENBQUk7VUFBQSxnQ0FBOEI7TUFDbEM7VUFBQTtVQUFBO2NBQUE7VUFBQTtVQUFBO1VBQUE7UUFBQTtRQUFBO1FBQUE7VUFBQTtVQUFBO1FBQUE7UUFBQTtVQUFBO1VBQUE7UUFBQTtRQUFBO1VBQUE7VUFBQTtRQUFBO1FBQUE7VUFBQTtVQUFBO1FBQUE7UUFBeUM7VUFBQTtVQUFBO1FBQUE7UUFBekM7TUFBQSx1Q0FBQTtVQUFBO1VBQUEsc0JBQUE7UUFBQTtNQUFBLG9DQUFBO1VBQUE7VUFBQSxvREFBQTt1QkFBQSxtQ0FBQTtVQUFBLDRDQUF1RjtVQUFBLFdBQ3ZGO1VBQUE7VUFBQSw0Q0FBcUQ7VUFBQSxVQUFZLHdDQUMzRDtVQUFBLFNBQ0YseUNBRU47VUFBQTthQUFBO1VBQUEsd0JBTU0sMkNBR047aUJBQUE7Y0FBQSwwREFBdUI7VUFBQSxVQUN0QjtVQUFBO1VBQUE7VUFBQTtVQUFBO1VBQUE7WUFBQTtZQUFBO1lBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtjQUFBO2NBQUE7WUFBQTtZQUFNO2NBQUE7Y0FBQTtZQUFBO1lBQU47VUFBQSx1Q0FBQTtVQUFBLG9DQUFBO1VBQUEsOEVBQUE7VUFBQSxvRUFBQTtVQUFBO1VBQUEsZUFBb0MseUNBQ25DO1VBQUE7VUFBQSw0Q0FBSTtVQUFBLHdCQUFzQix5Q0FDMUI7aUJBQUE7Y0FBQSwwREFBRztVQUFBLG1FQUErRDtpQkFBQSwwQkFDbEU7VUFBQTtVQUFBO2NBQUE7Y0FBQTtjQUFBO2NBQUE7WUFBQTtZQUFBO1lBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtjQUFBO2NBQUE7WUFBQTtZQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBeUM7Y0FBQTtjQUFBO1lBQUE7WUFBekM7VUFBQSx1Q0FBQTtVQUFBO1VBQUEsc0JBQUE7UUFBQTtNQUFBLG9DQUFBO1VBQUE7VUFBQSxvREFBQTt1QkFBQSxtQ0FBQTtVQUFBLDRDQUF3RjtVQUFBLFdBQ3hGO1VBQUE7VUFBQSw0Q0FBcUQ7VUFBQSxxQkFBdUIsd0NBQ3RFO1VBQUEsU0FLSSx3Q0FDWDtVQUFBO1VBQUEsMERBQXVDO1VBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtrQkFBQTtjQUFBO1lBQUE7WUFBQTtVQUFBLHVDQUFBO1VBQUE7VUFBQSxlQUFpRCxnREFBd0I7VUFBQSxTQUMzRzs7SUFwQ0Q7SUFBTCxXQUFLLFNBQUw7SUFTcUU7SUFBMUI7SUFBekMsWUFBbUUsV0FBMUIsVUFBekM7SUFLRztJQUFMLFlBQUssVUFBTDtJQWF1RTtJQUE1QjtJQUF6QyxZQUFxRSxXQUE1QixVQUF6QztJQVF5QztRQUFBO0lBQUgsWUFBRyxVQUFIOztJQTVCdkM7SUFBQTtJQUFBO0lBQUE7SUFBQTtJQUFBO0lBQUE7SUFBQSxXQUFBLHFFQUFBO0lBRUM7SUFBQTtJQUFBO0lBQUE7SUFBQTtJQUFBO0lBQUE7SUFBQSxZQUFBLDBFQUFBO0lBZUQ7SUFBQTtJQUFBO0lBQUE7SUFBQTtJQUFBO0lBQUE7SUFBQSxZQUFBO1FBQUEsVUFBQTtJQUdDO0lBQUE7SUFBQTtJQUFBO0lBQUE7SUFBQTtJQUFBO0lBQUEsWUFBQTtRQUFBLFVBQUE7SUFRc0M7SUFBQTtJQUFBLFlBQUEscUJBQUE7Ozs7b0JDdEN4QztNQUFBO3FDQUFBLFVBQUE7TUFBQTtJQUFBOzs7OyJ9
+export const UserProfileComponentNgFactory:i1.ComponentFactory<i7.UserProfileComponent> = i1.ɵccf('app-user-profile',
+    i7.UserProfileComponent,View_UserProfileComponent_Host_0,{},{},([] as any[]));
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL3VzZXItcHJvZmlsZS91c2VyLXByb2ZpbGUuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL3VzZXItcHJvZmlsZS91c2VyLXByb2ZpbGUuY29tcG9uZW50LnRzIiwibmc6Ly8vVXNlcnMvaHVuZ211aGFtYXRoL0hvbWVXb3JrL3Byb2plY3QtNC9ob25leURvL3NyYy9hcHAvdXNlci1wcm9maWxlL3VzZXItcHJvZmlsZS5jb21wb25lbnQuaHRtbCIsIm5nOi8vL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL3VzZXItcHJvZmlsZS91c2VyLXByb2ZpbGUuY29tcG9uZW50LnRzLlVzZXJQcm9maWxlQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiXG48IS0tIDxoMT57e3VzZXJOYW1lfX08L2gxPiAtLT5cbjxhcHAtbmF2YmFyPjwvYXBwLW5hdmJhcj5cbjxkaXYgKm5nSWY9XCJjdXJyZW50VXNlclwiIGNsYXNzPVwiY29udGFpbmVyXCI+XG5cblx0PCEtLSA8aDM+e3tjdXJyZW50VXNlci51c2VyTmFtZX19PC9oMz4gLS0+XG5cdDxpbWcgc3JjID0ge3tjdXJyZW50VXNlci5pbWFnZX19IGFsdD1cInlvdXIgZmFjZVwiPlxuPC9kaXY+XG48ZGl2IGNsYXNzPVwiY29udGFpbmVyXCI+XG5cdFx0PGJ1dHRvbiBjbGFzcz1cImJ0biBidG4tcHJpbWFyeSBidG4tc21cIiBpZD1cInJlc3VtZVwiPjxhIHJvdXRlckxpbms9XCIvR2FtZVBhZ2Uve3tjdXJyZW50VXNlci5nYW1lSWR9fVwiPlJlc3VtZSBHYW1lPC9hPjwvYnV0dG9uPlxuXHRcdDxwPklmIHlvdSBkb24ndCBoYXZlIGFuIG9uIHJ1bm5pbmcgZ2FtZSA8L3A+XG5cdFx0PHA+MS4gRmluZCB5b3VyIHBhcnRuZXI8L3A+XG5cdFx0PHA+Mi4gTmFtZSB5b3VyIGdhbWU8L3A+XG5cdFx0PHA+My4gY2xpY2sgXCJOZXcgR2FtZVwiPC9wPlxuPC9kaXY+XG5cbjxkaXYgaWQ9XCJub0dhbWVcIj5cblx0PGRpdiBjbGFzcz1cImNvbnRhaW5lclwiPlxuXHRcdDxmb3JtIChuZ1N1Ym1pdCk9XCJmaW5kUGFydG5lcihwYXJ0bmVyTmFtZSlcIj5cblx0XHRcdDxoMj4gRmluZCBZb3VyIFBhcnRuZXIgPC9oMj5cblx0XHRcdDxpbnB1dCB0eXBlPVwidGV4dFwiIHBsYWNlaG9sZGVyPVwiYWRkIG5hbWVcIlsobmdNb2RlbCldPVwicGFydG5lck5hbWVcIiBuYW1lPVwicGFydG5lciBuYW1lXCI+XG5cdFx0XHQ8YnV0dG9uIHR5cGU9XCJzdWJtaXRcIiBjbGFzcz1cImJ0biBidG4tcHJpbWFyeSBidG4tc20gc2VjdGlvbjJcIj5BZGQ8L2J1dHRvbj5cblx0XHQ8L2Zvcm0+XG5cdDwvZGl2PlxuXG5cdDxkaXYgKm5nSWY9XCJwYXJ0bmVySW5mb1wiIGNsYXNzPVwiY29udGFpbmVyXCI+XG5cdFx0XHQ8IS0tIDxoMj5TZWFyY2ggUmVzdWx0czwvaDI+IC0tPlxuXHRcdFx0XHRcdDxoMz57e3BhcnRuZXJJbmZvLnVzZXJOYW1lfX08L2gzPlxuXHRcdFx0XHRcdDwhLS0gPGg1Pnt7cGFydG5lckluZm8uaWR9fTwvaDU+IC0tPlxuXHRcdFx0XHRcdDxpbWcgc3JjPXt7cGFydG5lckluZm8uaW1hZ2V9fT5cdFxuXHRcdFx0PCEtLSA8YnV0dG9uIHR5cGU9XCJzdWJtaXRcIj5BZGQ8L2J1dHRvbj4gLS0+XG5cdDwvZGl2PlxuXG5cdDxkaXYgY2xhc3M9XCJjb250YWluZXJcIj5cblx0XHQ8Zm9ybSAobmdTdWJtaXQpPVwiY3JlYXRlR2FtZShnYW1lKVwiPlxuXHRcdFx0PGgyPiBBZGQgTmV3IEdhbWUgPC9oMj5cblx0XHRcdDxpbnB1dCB0eXBlPVwidGV4dFwiIHBsYWNlaG9sZGVyPVwiYWRkIG5hbWVcIlsobmdNb2RlbCldPVwiZ2FtZS5nYW1lTmFtZVwiIG5hbWU9XCJnYW1lJ3MgbmFtZVwiPlxuXHRcdFx0PGJ1dHRvbiB0eXBlPVwic3VibWl0XCIgY2xhc3M9XCJidG4gYnRuLXByaW1hcnkgYnRuLXNtIHNlY3Rpb24yXCI+TmV3IEdhbWU8L2J1dHRvbj5cblx0XHQ8L2Zvcm0+XG5cdDwhLS0gXHQ8Zm9ybSAobmdTdWJtaXQpPVwicmVzdW1lR2FtZSgpXCI+XG5cdFx0XHQ8aDI+IFJlc3VtZSBHYW1lPC9oMj5cblx0XHRcdDxwPiBJZiB5b3UgaGF2ZSBhbiBvbiBnb2luZyBnYW1lIGNsaWNrIFwiUmVzdW1lIEdhbWVcIjwvcD5cblx0XHRcdDxidXR0b24gdHlwZT1cInN1Ym1pdFwiPlJlc3VtZSBHYW1lPC9idXR0b24+XG5cdFx0PC9mb3JtPiAtLT5cblx0XHRcblx0PC9kaXY+XG48L2Rpdj5cbiIsIjxhcHAtdXNlci1wcm9maWxlPjwvYXBwLXVzZXItcHJvZmlsZT4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7b0JDR0E7TUFBQTtNQUEyQywwQ0FFQTtNQUMxQztVQUFBO01BQWlEOztJQUE1QztJQUFMLFdBQUssU0FBTDs7OztvQkFtQkE7TUFBQTtNQUEyQywwQ0FDVDtNQUM5QjtVQUFBLDBEQUFJO1VBQUEsVUFBNkIsNENBQ0c7VUFBQSxjQUNwQztVQUFBO01BQStCLDJDQUNVOzs7UUFIckM7UUFBQTtRQUVDO1FBQUwsV0FBSyxTQUFMOzs7O29CQTdCTCx1Q0FDOEI7TUFBQSxTQUM5QjtNQUFBO2FBQUE7VUFBQSw2QkFBeUIsdUNBQ3pCO2lCQUFBO2FBQUE7VUFBQSx3QkFJTSx1Q0FDTjtVQUFBO1VBQUEsMERBQXVCO1VBQUEsV0FDckI7VUFBQTtVQUFBLDhCQUFtRDtVQUFBO1VBQUE7WUFBQTtZQUFBO2NBQUE7a0JBQUE7Y0FBQTtZQUFBO1lBQUE7VUFBQSx1Q0FBQTtVQUFB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

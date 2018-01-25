@@ -1,6 +1,6 @@
 
 <div class="container">
-	<h2>"WHO SAID LOVE IS NOT ABOUT KEEPING TRACK?"</h2>
+	<h2>"HOW MUCH YOU LOVE EACH OTHER ?"</h2>
 </div>
 <div class="container">
 	<form (ngSubmit)=addNewTask(newTask) class="playerTop">
@@ -14,7 +14,7 @@
 	<ul>
 		<li *ngFor="let task of oneGame.tasks">
 			<div class="list">
-				<p>{{task.task}}    {{task.point}} pts</p>
+				<p>{{task.task}} :    {{task.point}} pts</p>
 			
 				<form (ngSubmit)="deleteTask(task)">
 			         <input type="submit" class="btn btn-secondary" value="Delete"/>
@@ -37,7 +37,7 @@
 				<li *ngFor="let user of oneGame.users">
 					<img src={{user.image}}>
 					<!-- <h5 class="userN"> {{user.userName}}     </h5> -->
-					<h5>  score: {{user.score}}</h5>
+					<h5>{{user.score}} Pts</h5>
 				</li>
 			</div>
 		</ul>

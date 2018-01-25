@@ -1,9 +1,23 @@
 /*h2 {
 	font-family: 'Questrial', sans-serif;
-	font-size: 20px;
+	
 	margin-bottom: 0;
 }*/
+#resume{
+	margin-top: 15px;
+}
+img{
+	border-radius: 30px;
+}
+#noGame{
+	background-color: #F9C939;
+}
 
-h3{
+button{
 	text-transform: uppercase;
+
+}
+
+.section2{
+	margin-left: 10px;
 }
