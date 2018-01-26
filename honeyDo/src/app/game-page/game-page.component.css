@@ -19,8 +19,11 @@
 .container{
 	padding-bottom: 10px;
 }
+.playerSection{
+	margin-top: 20px;
+}
 p {
-	font-size: 23px;
+	font-size: 21px;
 }
 img {
 	max-width: 150px;

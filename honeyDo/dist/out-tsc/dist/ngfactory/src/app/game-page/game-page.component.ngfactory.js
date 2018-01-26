@@ -83,8 +83,8 @@ function View_GamePageComponent_5(_l) {
 }
 function View_GamePageComponent_4(_l) {
     return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 10, 'div', [['class',
-                'container']], null, null, null, null, null)),
-        (_l()(), i1.ɵted(null, ['\n			'])), (_l()(), i1.ɵeld(0, null, null, 7, 'ul', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n				'])), (_l()(), i1.ɵeld(0, null, null, 4, 'div', [['class', 'player']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n					'])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_GamePageComponent_5)), i1.ɵdid(802816, null, 0, i2.NgForOf, [i1.ViewContainerRef,
+                'container playerSection']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n			'])), (_l()(), i1.ɵeld(0, null, null, 7, 'ul', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n				'])),
+        (_l()(), i1.ɵeld(0, null, null, 4, 'div', [['class', 'player']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n					'])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_GamePageComponent_5)), i1.ɵdid(802816, null, 0, i2.NgForOf, [i1.ViewContainerRef,
             i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, 'ngForOf'] }, null),
         (_l()(), i1.ɵted(null, ['\n				'])), (_l()(), i1.ɵted(null, ['\n			'])),
         (_l()(), i1.ɵted(null, ['\n	']))], function (_ck, _v) {
@@ -96,7 +96,7 @@ function View_GamePageComponent_4(_l) {
 function View_GamePageComponent_0(_l) {
     return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 1, 'app-navbar', [], null, null, null, i3.View_NavbarComponent_0, i3.RenderType_NavbarComponent)),
         i1.ɵdid(114688, null, 0, i4.NavbarComponent, [i5.ActivatedRoute, i6.MainService], null, null), (_l()(), i1.ɵted(null, ['\n'])), (_l()(),
-            i1.ɵeld(0, null, null, 4, 'div', [['class', 'container']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n	'])), (_l()(), i1.ɵeld(0, null, null, 1, 'h3', [], null, null, null, null, null)),
+            i1.ɵeld(0, null, null, 4, 'div', [['class', 'container']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n	'])), (_l()(), i1.ɵeld(0, null, null, 1, 'h2', [], null, null, null, null, null)),
         (_l()(), i1.ɵted(null, ['LOVE IS A COMPETITION'])), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵted(null, ['\n\n'])), (_l()(), i1.ɵeld(0, null, null, 4, 'div', [['class', 'container']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n	'])), (_l()(), i1.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)),
         (_l()(), i1.ɵted(null, ['Add task and points'])), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵted(null, ['\n\n'])), (_l()(), i1.ɵeld(0, null, null, 25, 'div', [['class', 'container']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n	'])), (_l()(), i1.ɵeld(0, null, null, 22, 'form', [['class',
                 'playerTop'], ['novalidate', '']], [[2, 'ng-untouched', null], [2, 'ng-touched',
