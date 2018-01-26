@@ -11,11 +11,16 @@ img{
 }
 #noGame{
 	background-color: #F9C939;
+	padding-bottom: 20px;
 }
 
 button{
 	text-transform: uppercase;
 
+}
+
+h2{
+	color: #75757E;
 }
 
 .section2{

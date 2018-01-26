@@ -30,16 +30,15 @@ function View_UserProfileComponent_1(_l) {
     });
 }
 function View_UserProfileComponent_2(_l) {
-    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 9, 'div', [['class',
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 7, 'div', [['class',
                 'container']], null, null, null, null, null)),
         (_l()(), i1.ɵted(null, ['\n			'])), (_l()(), i1.ɵted(null, ['\n					'])),
-        (_l()(), i1.ɵeld(0, null, null, 1, 'h3', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(null, ['\n					'])), (_l()(), i1.ɵted(null, ['\n					'])), (_l()(), i1.ɵeld(0, null, null, 0, 'img', [], [[8, 'src', 4]], null, null, null, null)),
-        (_l()(), i1.ɵted(null, ['	\n			'])), (_l()(), i1.ɵted(null, ['\n	']))], null, function (_ck, _v) {
+        (_l()(), i1.ɵted(null, ['\n					'])), (_l()(), i1.ɵted(null, ['\n					'])),
+        (_l()(), i1.ɵeld(0, null, null, 0, 'img', [], [[8, 'src',
+                4]], null, null, null, null)), (_l()(), i1.ɵted(null, ['	\n			'])), (_l()(), i1.ɵted(null, ['\n	']))], null, function (_ck, _v) {
         var _co = _v.component;
-        var currVal_0 = _co.partnerInfo.userName;
-        _ck(_v, 4, 0, currVal_0);
-        var currVal_1 = i1.ɵinlineInterpolate(1, '', _co.partnerInfo.image, '');
-        _ck(_v, 7, 0, currVal_1);
+        var currVal_0 = i1.ɵinlineInterpolate(1, '', _co.partnerInfo.image, '');
+        _ck(_v, 5, 0, currVal_0);
     });
 }
 function View_UserProfileComponent_0(_l) {
@@ -47,7 +46,7 @@ function View_UserProfileComponent_0(_l) {
         i1.ɵdid(114688, null, 0, i3.NavbarComponent, [i4.ActivatedRoute, i5.MainService], null, null), (_l()(), i1.ɵted(null, ['\n'])), (_l()(),
             i1.ɵand(16777216, null, null, 1, null, View_UserProfileComponent_1)),
         i1.ɵdid(16384, null, 0, i6.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0,
-                'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵeld(0, null, null, 18, 'div', [['class', 'container']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n		'])), (_l()(), i1.ɵeld(0, null, null, 3, 'button', [['class',
+                'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵeld(0, null, null, 21, 'div', [['class', 'container']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n		'])), (_l()(), i1.ɵeld(0, null, null, 3, 'button', [['class',
                 'btn btn-primary btn-sm'], ['id', 'resume']], null, null, null, null, null)), (_l()(), i1.ɵeld(0, null, null, 2, 'a', [], [[1, 'target', 0], [8, 'href', 4]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
@@ -57,10 +56,11 @@ function View_UserProfileComponent_0(_l) {
             return ad;
         }, null, null)), i1.ɵdid(671744, null, 0, i4.RouterLinkWithHref, [i4.Router, i4.ActivatedRoute, i6.LocationStrategy], { routerLink: [0, 'routerLink'] }, null), (_l()(), i1.ɵted(null, ['Resume Game'])), (_l()(), i1.ɵted(null, ['\n		'])), (_l()(), i1.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)),
         (_l()(), i1.ɵted(null, ['If you don\'t have an on running game '])), (_l()(),
+            i1.ɵted(null, ['\n		'])), (_l()(), i1.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['Fill out below'])), (_l()(),
             i1.ɵted(null, ['\n		'])), (_l()(), i1.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['1. Find your partner'])),
         (_l()(), i1.ɵted(null, ['\n		'])), (_l()(), i1.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['2. Name your game'])), (_l()(),
-            i1.ɵted(null, ['\n		'])), (_l()(), i1.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['3. click "New Game"'])),
-        (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵted(null, ['\n\n'])),
+            i1.ɵted(null, ['\n		'])), (_l()(), i1.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['3. Add New Game'])), (_l()(),
+            i1.ɵted(null, ['\n'])), (_l()(), i1.ɵted(null, ['\n\n'])),
         (_l()(), i1.ɵeld(0, null, null, 51, 'div', [['id', 'noGame']], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n	'])), (_l()(), i1.ɵeld(0, null, null, 21, 'div', [['class',
                 'container']], null, null, null, null, null)),
         (_l()(), i1.ɵted(null, ['\n		'])), (_l()(), i1.ɵeld(0, null, null, 18, 'form', [['novalidate', '']], [[2, 'ng-untouched', null], [2, 'ng-touched',
@@ -71,11 +71,11 @@ function View_UserProfileComponent_0(_l) {
             var ad = true;
             var _co = _v.component;
             if (('submit' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 34).onSubmit($event) !== false);
+                var pd_0 = (i1.ɵnov(_v, 37).onSubmit($event) !== false);
                 ad = (pd_0 && ad);
             }
             if (('reset' === en)) {
-                var pd_1 = (i1.ɵnov(_v, 34).onReset() !== false);
+                var pd_1 = (i1.ɵnov(_v, 37).onReset() !== false);
                 ad = (pd_1 && ad);
             }
             if (('ngSubmit' === en)) {
@@ -95,19 +95,19 @@ function View_UserProfileComponent_0(_l) {
                 var ad = true;
                 var _co = _v.component;
                 if (('input' === en)) {
-                    var pd_0 = (i1.ɵnov(_v, 42)._handleInput($event.target.value) !== false);
+                    var pd_0 = (i1.ɵnov(_v, 45)._handleInput($event.target.value) !== false);
                     ad = (pd_0 && ad);
                 }
                 if (('blur' === en)) {
-                    var pd_1 = (i1.ɵnov(_v, 42).onTouched() !== false);
+                    var pd_1 = (i1.ɵnov(_v, 45).onTouched() !== false);
                     ad = (pd_1 && ad);
                 }
                 if (('compositionstart' === en)) {
-                    var pd_2 = (i1.ɵnov(_v, 42)._compositionStart() !== false);
+                    var pd_2 = (i1.ɵnov(_v, 45)._compositionStart() !== false);
                     ad = (pd_2 && ad);
                 }
                 if (('compositionend' === en)) {
-                    var pd_3 = (i1.ɵnov(_v, 42)._compositionEnd($event.target.value) !== false);
+                    var pd_3 = (i1.ɵnov(_v, 45)._compositionEnd($event.target.value) !== false);
                     ad = (pd_3 && ad);
                 }
                 if (('ngModelChange' === en)) {
@@ -130,11 +130,11 @@ function View_UserProfileComponent_0(_l) {
             var ad = true;
             var _co = _v.component;
             if (('submit' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 60).onSubmit($event) !== false);
+                var pd_0 = (i1.ɵnov(_v, 63).onSubmit($event) !== false);
                 ad = (pd_0 && ad);
             }
             if (('reset' === en)) {
-                var pd_1 = (i1.ɵnov(_v, 60).onReset() !== false);
+                var pd_1 = (i1.ɵnov(_v, 63).onReset() !== false);
                 ad = (pd_1 && ad);
             }
             if (('ngSubmit' === en)) {
@@ -153,19 +153,19 @@ function View_UserProfileComponent_0(_l) {
             var ad = true;
             var _co = _v.component;
             if (('input' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 68)._handleInput($event.target.value) !== false);
+                var pd_0 = (i1.ɵnov(_v, 71)._handleInput($event.target.value) !== false);
                 ad = (pd_0 && ad);
             }
             if (('blur' === en)) {
-                var pd_1 = (i1.ɵnov(_v, 68).onTouched() !== false);
+                var pd_1 = (i1.ɵnov(_v, 71).onTouched() !== false);
                 ad = (pd_1 && ad);
             }
             if (('compositionstart' === en)) {
-                var pd_2 = (i1.ɵnov(_v, 68)._compositionStart() !== false);
+                var pd_2 = (i1.ɵnov(_v, 71)._compositionStart() !== false);
                 ad = (pd_2 && ad);
             }
             if (('compositionend' === en)) {
-                var pd_3 = (i1.ɵnov(_v, 68)._compositionEnd($event.target.value) !== false);
+                var pd_3 = (i1.ɵnov(_v, 71)._compositionEnd($event.target.value) !== false);
                 ad = (pd_3 && ad);
             }
             if (('ngModelChange' === en)) {
@@ -187,48 +187,48 @@ function View_UserProfileComponent_0(_l) {
         _ck(_v, 12, 0, currVal_3);
         var currVal_18 = 'partner name';
         var currVal_19 = _co.partnerName;
-        _ck(_v, 44, 0, currVal_18, currVal_19);
+        _ck(_v, 47, 0, currVal_18, currVal_19);
         var currVal_20 = _co.partnerInfo;
-        _ck(_v, 54, 0, currVal_20);
+        _ck(_v, 57, 0, currVal_20);
         var currVal_35 = 'game\'s name';
         var currVal_36 = _co.game.gameName;
-        _ck(_v, 70, 0, currVal_35, currVal_36);
+        _ck(_v, 73, 0, currVal_35, currVal_36);
     }, function (_ck, _v) {
         var currVal_1 = i1.ɵnov(_v, 12).target;
         var currVal_2 = i1.ɵnov(_v, 12).href;
         _ck(_v, 11, 0, currVal_1, currVal_2);
-        var currVal_4 = i1.ɵnov(_v, 36).ngClassUntouched;
-        var currVal_5 = i1.ɵnov(_v, 36).ngClassTouched;
-        var currVal_6 = i1.ɵnov(_v, 36).ngClassPristine;
-        var currVal_7 = i1.ɵnov(_v, 36).ngClassDirty;
-        var currVal_8 = i1.ɵnov(_v, 36).ngClassValid;
-        var currVal_9 = i1.ɵnov(_v, 36).ngClassInvalid;
-        var currVal_10 = i1.ɵnov(_v, 36).ngClassPending;
-        _ck(_v, 32, 0, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8, currVal_9, currVal_10);
-        var currVal_11 = i1.ɵnov(_v, 46).ngClassUntouched;
-        var currVal_12 = i1.ɵnov(_v, 46).ngClassTouched;
-        var currVal_13 = i1.ɵnov(_v, 46).ngClassPristine;
-        var currVal_14 = i1.ɵnov(_v, 46).ngClassDirty;
-        var currVal_15 = i1.ɵnov(_v, 46).ngClassValid;
-        var currVal_16 = i1.ɵnov(_v, 46).ngClassInvalid;
-        var currVal_17 = i1.ɵnov(_v, 46).ngClassPending;
-        _ck(_v, 41, 0, currVal_11, currVal_12, currVal_13, currVal_14, currVal_15, currVal_16, currVal_17);
-        var currVal_21 = i1.ɵnov(_v, 62).ngClassUntouched;
-        var currVal_22 = i1.ɵnov(_v, 62).ngClassTouched;
-        var currVal_23 = i1.ɵnov(_v, 62).ngClassPristine;
-        var currVal_24 = i1.ɵnov(_v, 62).ngClassDirty;
-        var currVal_25 = i1.ɵnov(_v, 62).ngClassValid;
-        var currVal_26 = i1.ɵnov(_v, 62).ngClassInvalid;
-        var currVal_27 = i1.ɵnov(_v, 62).ngClassPending;
-        _ck(_v, 58, 0, currVal_21, currVal_22, currVal_23, currVal_24, currVal_25, currVal_26, currVal_27);
-        var currVal_28 = i1.ɵnov(_v, 72).ngClassUntouched;
-        var currVal_29 = i1.ɵnov(_v, 72).ngClassTouched;
-        var currVal_30 = i1.ɵnov(_v, 72).ngClassPristine;
-        var currVal_31 = i1.ɵnov(_v, 72).ngClassDirty;
-        var currVal_32 = i1.ɵnov(_v, 72).ngClassValid;
-        var currVal_33 = i1.ɵnov(_v, 72).ngClassInvalid;
-        var currVal_34 = i1.ɵnov(_v, 72).ngClassPending;
-        _ck(_v, 67, 0, currVal_28, currVal_29, currVal_30, currVal_31, currVal_32, currVal_33, currVal_34);
+        var currVal_4 = i1.ɵnov(_v, 39).ngClassUntouched;
+        var currVal_5 = i1.ɵnov(_v, 39).ngClassTouched;
+        var currVal_6 = i1.ɵnov(_v, 39).ngClassPristine;
+        var currVal_7 = i1.ɵnov(_v, 39).ngClassDirty;
+        var currVal_8 = i1.ɵnov(_v, 39).ngClassValid;
+        var currVal_9 = i1.ɵnov(_v, 39).ngClassInvalid;
+        var currVal_10 = i1.ɵnov(_v, 39).ngClassPending;
+        _ck(_v, 35, 0, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8, currVal_9, currVal_10);
+        var currVal_11 = i1.ɵnov(_v, 49).ngClassUntouched;
+        var currVal_12 = i1.ɵnov(_v, 49).ngClassTouched;
+        var currVal_13 = i1.ɵnov(_v, 49).ngClassPristine;
+        var currVal_14 = i1.ɵnov(_v, 49).ngClassDirty;
+        var currVal_15 = i1.ɵnov(_v, 49).ngClassValid;
+        var currVal_16 = i1.ɵnov(_v, 49).ngClassInvalid;
+        var currVal_17 = i1.ɵnov(_v, 49).ngClassPending;
+        _ck(_v, 44, 0, currVal_11, currVal_12, currVal_13, currVal_14, currVal_15, currVal_16, currVal_17);
+        var currVal_21 = i1.ɵnov(_v, 65).ngClassUntouched;
+        var currVal_22 = i1.ɵnov(_v, 65).ngClassTouched;
+        var currVal_23 = i1.ɵnov(_v, 65).ngClassPristine;
+        var currVal_24 = i1.ɵnov(_v, 65).ngClassDirty;
+        var currVal_25 = i1.ɵnov(_v, 65).ngClassValid;
+        var currVal_26 = i1.ɵnov(_v, 65).ngClassInvalid;
+        var currVal_27 = i1.ɵnov(_v, 65).ngClassPending;
+        _ck(_v, 61, 0, currVal_21, currVal_22, currVal_23, currVal_24, currVal_25, currVal_26, currVal_27);
+        var currVal_28 = i1.ɵnov(_v, 75).ngClassUntouched;
+        var currVal_29 = i1.ɵnov(_v, 75).ngClassTouched;
+        var currVal_30 = i1.ɵnov(_v, 75).ngClassPristine;
+        var currVal_31 = i1.ɵnov(_v, 75).ngClassDirty;
+        var currVal_32 = i1.ɵnov(_v, 75).ngClassValid;
+        var currVal_33 = i1.ɵnov(_v, 75).ngClassInvalid;
+        var currVal_34 = i1.ɵnov(_v, 75).ngClassPending;
+        _ck(_v, 70, 0, currVal_28, currVal_29, currVal_30, currVal_31, currVal_32, currVal_33, currVal_34);
     });
 }
 exports.View_UserProfileComponent_0 = View_UserProfileComponent_0;

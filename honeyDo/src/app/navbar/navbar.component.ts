@@ -16,13 +16,13 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit() {
   	    //this call to service to get all the information of the user as the page pull up
-  	this.route.params.forEach(param => {
-  		this.mainService.getUserProfile(param.id)
-  		.subscribe(response=>{
-  			this.currentUser = response.json();
-  			console.log(this.currentUser);
-  		});
-  	});
+  	// this.route.params.forEach(param => {
+  	// 	this.mainService.getUserProfile(param.id)
+  	// 	.subscribe(response=>{
+  	// 		this.currentUser = response.json();
+  	// 		console.log(this.currentUser);
+  	// 	});
+  	// });
   }
 
 }

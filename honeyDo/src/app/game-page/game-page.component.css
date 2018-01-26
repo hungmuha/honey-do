@@ -1,15 +1,30 @@
-li {
+.actions {
+	display: block;
+	color: white;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+
+
+.playerInfo{
 	display: inline-block;
 	padding-left: 10px
+}
+.taskList{
+	display: block;
 }
 .container{
 	padding-bottom: 10px;
 }
 p {
-	font-size: 27px;
+	font-size: 23px;
 }
 img {
-	max-width: 100px;
+	max-width: 150px;
+	border-radius: 20px;
 }
 
 h2 {
@@ -17,14 +32,30 @@ h2 {
 }
 
 h5{
-	color: white;
-	font-size: 30px;
-}
-.list{
-	display: inline-block;
+	color: #75757E;
+	font-size: 20px;
 }
 
-form, button, p {
+.options{
+	left: 50% !important;
+  	right: auto !important;
+  	text-align: center !important;
+  	transform: translate(-50%, 0) !important;
+	background-color: #F27B2F;	
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.list{
+	margin-top: 20px;
+	padding-top: 20px;
+	display: block;
+	background-color: #F9C939;
+	width: 100%;
+}
+
+form, p {
 	display: inline;
 }
 
@@ -37,8 +68,9 @@ form, button, p {
 	padding-left: 10px;
 }
 
-.taskList{
-	border:1px solid #bbb;
+.action{
+	/*border:1px solid #bbb;*/
+	display: block;
 }
 .userN{
 	text-transform: uppercase;

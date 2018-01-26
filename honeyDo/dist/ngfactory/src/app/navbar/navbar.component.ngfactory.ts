@@ -8,58 +8,33 @@
 
 import * as i0 from './navbar.component.css.shim.ngstyle';
 import * as i1 from '@angular/core';
-import * as i2 from '@angular/router';
-import * as i3 from '@angular/common';
-import * as i4 from '../../../../../src/app/navbar/navbar.component';
-import * as i5 from '../../../../../src/app/main/main.service';
+import * as i2 from '../../../../../src/app/navbar/navbar.component';
+import * as i3 from '@angular/router';
+import * as i4 from '../../../../../src/app/main/main.service';
 const styles_NavbarComponent:any[] = [i0.styles];
 export const RenderType_NavbarComponent:i1.RendererType2 = i1.ɵcrt({encapsulation:0,
     styles:styles_NavbarComponent,data:{}});
 export function View_NavbarComponent_0(_l:any):i1.ɵViewDefinition {
-  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),13,'nav',[['class',
+  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),9,'nav',[['class',
       'nav-bar']],(null as any),(null as any),(null as any),(null as any),(null as any))),
       (_l()(),i1.ɵted((null as any),['\n	'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
           1,'div',[['class','nav-item']],(null as any),(null as any),(null as any),
           (null as any),(null as any))),(_l()(),i1.ɵted((null as any),['Honey Do'])),
-      (_l()(),i1.ɵted((null as any),['\n	'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
-          3,'div',[['class','nav-item']],(null as any),(null as any),(null as any),
-          (null as any),(null as any))),(_l()(),i1.ɵeld(0,(null as any),(null as any),
-          2,'a',[['routerLink','/Profile/:id']],[[1,'target',0],[8,'href',4]],[[(null as any),
-              'click']],(_v,en,$event) => {
-            var ad:boolean = true;
-            if (('click' === en)) {
-              const pd_0:any = ((<any>i1.ɵnov(_v,7).onClick($event.button,$event.ctrlKey,
-                  $event.metaKey,$event.shiftKey)) !== false);
-              ad = (pd_0 && ad);
-            }
-            return ad;
-          },(null as any),(null as any))),i1.ɵdid(671744,(null as any),0,i2.RouterLinkWithHref,
-          [i2.Router,i2.ActivatedRoute,i3.LocationStrategy],{routerLink:[0,'routerLink']},
-          (null as any)),(_l()(),i1.ɵted((null as any),['',''])),(_l()(),i1.ɵted((null as any),
-          ['\n	'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),2,'div',[['class',
-          'nav-item']],(null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i1.ɵted((null as any),['\n	'])),(_l()(),i1.ɵted((null as any),['\n	'])),
+      (_l()(),i1.ɵeld(0,(null as any),(null as any),2,'div',[['class','nav-item']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
       (_l()(),i1.ɵeld(0,(null as any),(null as any),1,'a',[['href','/logout']],(null as any),
           (null as any),(null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
-          ['Log Out'])),(_l()(),i1.ɵted((null as any),['\n\n']))],(_ck,_v) => {
-    const currVal_2:any = '/Profile/:id';
-    _ck(_v,7,0,currVal_2);
-  },(_ck,_v) => {
-    var _co:i4.NavbarComponent = _v.component;
-    const currVal_0:any = i1.ɵnov(_v,7).target;
-    const currVal_1:any = i1.ɵnov(_v,7).href;
-    _ck(_v,6,0,currVal_0,currVal_1);
-    const currVal_3:any = _co.currentUser.userName;
-    _ck(_v,8,0,currVal_3);
-  });
+          ['Log Out'])),(_l()(),i1.ɵted((null as any),['\n\n']))],(null as any),(null as any));
 }
 export function View_NavbarComponent_Host_0(_l:any):i1.ɵViewDefinition {
   return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'app-navbar',([] as any[]),
       (null as any),(null as any),(null as any),View_NavbarComponent_0,RenderType_NavbarComponent)),
-      i1.ɵdid(114688,(null as any),0,i4.NavbarComponent,[i2.ActivatedRoute,i5.MainService],
+      i1.ɵdid(114688,(null as any),0,i2.NavbarComponent,[i3.ActivatedRoute,i4.MainService],
           (null as any),(null as any))],(_ck,_v) => {
     _ck(_v,1,0);
   },(null as any));
 }
-export const NavbarComponentNgFactory:i1.ComponentFactory<i4.NavbarComponent> = i1.ɵccf('app-navbar',
-    i4.NavbarComponent,View_NavbarComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL25hdmJhci9uYXZiYXIuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL25hdmJhci9uYXZiYXIuY29tcG9uZW50LnRzIiwibmc6Ly8vVXNlcnMvaHVuZ211aGFtYXRoL0hvbWVXb3JrL3Byb2plY3QtNC9ob25leURvL3NyYy9hcHAvbmF2YmFyL25hdmJhci5jb21wb25lbnQuaHRtbCIsIm5nOi8vL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL25hdmJhci9uYXZiYXIuY29tcG9uZW50LnRzLk5hdmJhckNvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxuYXYgY2xhc3M9XCJuYXYtYmFyXCI+XG5cdDxkaXYgY2xhc3M9XCJuYXYtaXRlbVwiPkhvbmV5IERvPC9kaXY+XG5cdDxkaXYgY2xhc3M9XCJuYXYtaXRlbVwiPjxhIHJvdXRlckxpbms9XCIvUHJvZmlsZS86aWRcIj57e2N1cnJlbnRVc2VyLnVzZXJOYW1lfX08L2E+PC9kaXY+XG5cdDxkaXYgY2xhc3M9XCJuYXYtaXRlbVwiPjxhIGhyZWY9XCIvbG9nb3V0XCI+TG9nIE91dDwvYT48L2Rpdj5cblxuPC9uYXY+IiwiPGFwcC1uYXZiYXI+PC9hcHAtbmF2YmFyPiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7OztvQkNBQTtNQUFBO01BQXFCLHdDQUNwQjtVQUFBO1VBQUEsOEJBQXNCO01BQWMsd0NBQ3BDO1VBQUE7VUFBQSw4QkFBc0I7VUFBQTtjQUFBO1lBQUE7WUFBQTtjQUFBO2tCQUFBO2NBQUE7WUFBQTtZQUFBO1VBQUEsdUNBQUE7VUFBQTtVQUFBLGVBQTZCLHdDQUFrQztVQUFBLFVBQ3JGO1VBQUE7TUFBc0I7VUFBQSwwREFBa0I7VUFBQSxjQUFpQjtJQURoQztJQUFILFdBQUcsU0FBSDs7O0lBQUE7SUFBQTtJQUFBLFdBQUEsbUJBQUE7SUFBNkI7SUFBQTs7OztvQkNGcEQ7TUFBQTthQUFBO1VBQUE7SUFBQTs7OzsifQ==
+export const NavbarComponentNgFactory:i1.ComponentFactory<i2.NavbarComponent> = i1.ɵccf('app-navbar',
+    i2.NavbarComponent,View_NavbarComponent_Host_0,{},{},([] as any[]));
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL25hdmJhci9uYXZiYXIuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL25hdmJhci9uYXZiYXIuY29tcG9uZW50LnRzIiwibmc6Ly8vVXNlcnMvaHVuZ211aGFtYXRoL0hvbWVXb3JrL3Byb2plY3QtNC9ob25leURvL3NyYy9hcHAvbmF2YmFyL25hdmJhci5jb21wb25lbnQuaHRtbCIsIm5nOi8vL1VzZXJzL2h1bmdtdWhhbWF0aC9Ib21lV29yay9wcm9qZWN0LTQvaG9uZXlEby9zcmMvYXBwL25hdmJhci9uYXZiYXIuY29tcG9uZW50LnRzLk5hdmJhckNvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxuYXYgY2xhc3M9XCJuYXYtYmFyXCI+XG5cdDxkaXYgY2xhc3M9XCJuYXYtaXRlbVwiPkhvbmV5IERvPC9kaXY+XG5cdDwhLS0gPGRpdiBjbGFzcz1cIm5hdi1pdGVtXCI+PGEgcm91dGVyTGluaz1cIi9Qcm9maWxlLzppZFwiPnt7Y3VycmVudFVzZXIudXNlck5hbWV9fTwvYT48L2Rpdj4gLS0+XG5cdDxkaXYgY2xhc3M9XCJuYXYtaXRlbVwiPjxhIGhyZWY9XCIvbG9nb3V0XCI+TG9nIE91dDwvYT48L2Rpdj5cblxuPC9uYXY+IiwiPGFwcC1uYXZiYXI+PC9hcHAtbmF2YmFyPiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7O29CQ0FBO01BQUE7TUFBcUIsd0NBQ3BCO1VBQUE7VUFBQSw4QkFBc0I7TUFBYyx3Q0FDMEQ7TUFDOUY7VUFBQTtNQUFzQjtVQUFBLDBEQUFrQjtVQUFBLGNBQWlCOzs7b0JDSDFEO01BQUE7YUFBQTtVQUFBO0lBQUE7Ozs7In0=

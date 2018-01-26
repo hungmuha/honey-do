@@ -6,5 +6,5 @@
  */
 /* tslint:disable */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.styles = ['a[_ngcontent-%COMP%]	{\n	color: white;\n	font-size: 14px;\n	display: inline;\n}\n\n\n.nav-bar[_ngcontent-%COMP%] {\n	width: 100%;\n	height:30px;\n	background-color: #F9C939;\n	display: flex;\n  	justify-content: center;\n  	margin-bottom: 20px;\n\n}\n\n.nav-item[_ngcontent-%COMP%] {\n	text-transform: capitalize;\n	color: #75757E;\n	align-self: center;\n	margin: 20px 10px;\n	\n}'];
+exports.styles = ['a[_ngcontent-%COMP%]	{\n	color: white;\n	font-size: 14px;\n	display: inline;\n	color: #75757E;\n}\n\n\n.nav-bar[_ngcontent-%COMP%] {\n	width: 100%;\n	height:30px;\n	background-color: #F9C939;\n	display: flex;\n  	justify-content: center;\n  	margin-bottom: 20px;\n\n}\n\n.nav-item[_ngcontent-%COMP%] {\n	text-transform: capitalize;\n	color: #75757E;\n	align-self: center;\n	margin: 20px 10px;\n	\n}'];
 //# sourceMappingURL=navbar.component.css.shim.ngstyle.js.map
